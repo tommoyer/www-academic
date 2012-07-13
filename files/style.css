@@ -1,0 +1,41 @@
+body {
+    margin: 2em auto;
+    width: 960px;
+}
+
+img[height='250px'] {
+    height: 250px;
+}
+
+img[border='1px'] {
+    border: 1px solid black;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+div.nav {
+    text-align: center;
+}
+
+div.nav a {
+    display: inline-block;
+    width: 10em;
+}
+
+.center {
+    text-align: center;
+}
+
+.tight {
+    line-height: 1em;
+}
