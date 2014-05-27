@@ -1,0 +1,4 @@
+[[file:index.org][Home]]
+[[file:pubs.org][Publications]]
+[[file:vita.org][Vita]]
+[[file:personal.org][Personal]]
