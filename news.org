@@ -1,5 +1,5 @@
 #+TITLE: Archived News
-#+INCLUDE: "~/Scratch/site/nav.org"
+#+INCLUDE: "nav.org"
 * *Spetember 12, 2011*
 I have accepted a position at MIT Lincoln Laboratory.
 * *August, 31, 2011*

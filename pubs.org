@@ -1,0 +1,4 @@
+#+HTML_HEAD_EXTRA: <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+#+HTML_HEAD_EXTRA: <script type="text/javascript" src="http://bibtex-js.googlecode.com/svn/trunk/src/bibtex_js.js"></script>
+
+https://code.google.com/p/bibtex-js/wiki/Installation

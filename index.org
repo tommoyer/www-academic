@@ -12,11 +12,11 @@ MIT Lincoln Laboratory
 244 Wood Street\\
 Lexington, MA 02420-9108
 
-#+INCLUDE: "~/Scratch/site/nav.org"
+#+INCLUDE: "nav.org"
 
 I recently defended my dissertation, titled /Building Scalable Document Integrity Systems/. Next, I will be working at [[http://www.ll.mit.edu][MIT Lincoln Laboratory]], where I will be working on various problems in Computer Security. My new contact information is reflected above.
 
 * Recent News
-#+INCLUDE: "~/Scratch/site/news.org" :lines "3-13"
+#+INCLUDE: "news.org" :lines "3-13"
 
 [[file:news.org][Older News]]
