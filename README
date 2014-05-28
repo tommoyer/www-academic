@@ -1,0 +1,1 @@
+1. Investigate using a before-save-hook to run tm/add-class to news.org

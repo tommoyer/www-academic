@@ -1,4 +1,9 @@
-[[file:index.org][Home]]
-[[file:pubs.org][Publications]]
-[[file:vita.org][Vita]]
-[[file:personal.org][Personal]]
+#+ATTR_HTML: :id nav
+-----
+#+BEGIN_NAVIGATION
+- [[file:index.org][Home]]
+- [[file:pubs.org][Publications]]
+- [[file:vita.org][Vita]]
+- [[file:personal.org][Personal]]
+#+END_NAVIGATION
+-----

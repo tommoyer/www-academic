@@ -1,0 +1,5 @@
+Notes:
+
+bibtex-js:
+ svn export -r16 http://bibtex-js.googlecode.com/svn/trunk/ bibtex-js
+ patch < bibtex_js_handle_plus_in_key.patch

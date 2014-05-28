@@ -1,38 +1,92 @@
 #+TITLE: Archived News
 #+INCLUDE: "nav.org"
 * *Spetember 12, 2011*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have accepted a position at MIT Lincoln Laboratory.
 * *August, 31, 2011*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have successfully defended my dissertation, titled Building Scalable Document Integrity Systems
 * *February 15, 2011*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our paper, Scalable Web Content Attestation has been accepted to appear in IEEE Transactions on Computers.
 * *October 7, 2010*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our paper, Network-based Root of Trust for Installation has been accepted to appear in IEEE Security & Privacy.
 * *August 6, 2010*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our paper, Seeding Clouds with Trust Anchors, has been accepted at the 2nd ACM Cloud Computing Security Workshop in Chicago, IL.
 * *July 25, 2010*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have been awarded a Student Travel Grant to the 19th USENIX Security Symposium in Washington, DC.
 * *April 6, 2010*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our paper, OS Security Architectures Built on Smart Disks has been accepted for publication in IEEE Security & Privacy magazine.
 * *March 2, 2010*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our paper An architecture for enforcing end-to-end access control over web applications was accepted to the 15th ACM Symposium on Access Control Models and Technologies.
 * *December 7, 2009*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I presented our paper Scalable Web Content Attestation at the 2009 Annual Computer Security Applications Conference.
 * *August 26, 2009*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our papers Scalable Web Content Attestation and Justifying Integrity Using a Virtual Machine Verifier were accepted to the 2009 Annual Computer Security Applications Conference.
 * *July 15, 2009*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have been awarded a student grant to attend USENIX Security '09.
 * *April 8, 2009*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have successfully defended my Masters Thesis and will continue at Penn State for my Ph.D.
 * *November 26, 2008*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 Our paper Configuration Management at Massive Scale: System Design and Experience was accepted to the IEEE Journal on Selected Areas in Communications.
 * *July 3, 2008*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have been awarded a student grant to attend USENIX Security '08.
 * *January 31, 2008*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I am wrapping up my work on configuration management with AT&T.
 * *October 15, 2007*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have passed my candidacy exams and am now a Ph.D. candidate.
 * *August 24, 2007*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I have returned from Florham Park, NJ but continue to work on configuration management.
 * *May 21, 2007*
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: news-item
+:END:
 I am going to Florham Park, NJ to work on configuration management at AT&T.

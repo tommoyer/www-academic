@@ -1,0 +1,71 @@
+#+TITLE: Vita
+
+#+INCLUDE: "nav.org"
+
+* Education
+*Doctor of Philosophy in Computer Science and Engineering*, The Pennsylvania State University, December 2011. Thesis Title: "Building Scalable Document Integrity Systems"\\
+*Master of Science in Computer Science and Engineering*, The Pennsylvania State University, May 2009. Thesis Title: "Scalable Web Content Attestation"\\
+*Bachelor of Science*, The Pennsylvania State University, May 2006.
+
+* Academic Appoinments
+*Technical Staff*, MIT Lincoln Laboratory\\
+/September 2011 to Present/
+
+*Research Assistant*, The Pennsylvania State University\\
+/Summer 2008 to September 2011/\\
+Worked on problems in virtual machine security.\\
+Developed applications utilizing open source virtualization technologies and trusted hardware.\\
+Worked on various problems in Web security.
+
+*Research Assistant*, The Pennsylvania State University\\
+/Fall 2007 to Spring 2008/\\
+Worked on problems in configuration management.\\
+Assisted in developing/testing tool for creating router configurations.
+
+*Instructor*, The Pennsylvania State University\\
+/Spring 2007/\\
+Taught course titled /CMPSC 101: Introduction to Algorithmic Processes/\\
+Introductory course for non-computer science majors.\\
+Fundamentals of programming using Microsoft Visual Basic
+
+* Industrial Appointments
+*Summer Research Intern*, AT&T Research Labs, Florham Park, NJ\\
+/Summer 2007/\\
+Worked on problems in configuration management.\\
+Assisted in developing/testing tool for creating router configurations.
+
+*Systems Administrator*, Geodynamics Research Group, The Pennsylvania State University\\
+/Spring 2004 to Summer 2007/\\
+Maintained and updated systems used for research.\\
+Developed systems to support lab functions.\\
+Deployed server systems for web and email hosting.
+
+* Awards
+- USENIX Association Student Travel Stipend (2008, 2009, 2010)
+- ACSAC Student Travel Assistantship (2009)
+
+* Professional Acativities
+** Program Committee
+- International Conference on Availability, Reliability, and Security (ARES) (2014, 2013, 2012)
+- Annual Computer Security Applications Conference (ACSAC) (2014, 2013, 2012)
+** Reviewer
+- USENIX Security Symposium (USENIX Security) (2014, 2009)
+- IEEE Transactions on Computers (TC) (2013)
+- IEEE Transactions on Parallel and Distributed Systems (TPDS) (2013)
+- IEEE Symposium on Security and Privacy (Oakland) (2013, 2011)
+- Computer Security Foundations Symposium (2011)
+- International Conference on Mobile Computing and Networking (MobiCom) (2011)
+- ACM Transactions on Internet Technology (TOIT) (2011, 2010)
+- Annual Computer Security Applications Conference (ACSAC) (2010, 2009)
+- ACM Computer and Communications Security Conference (CCS) (2010, 2009)
+- USENIX Workshop on Hot Topics in Security (HotSec) (2010, 2008)
+- ACM Symposium on Access Control Models and Technologies (SACMAT) (2010, 2009)
+- IEEE Transactions on Software Engineering (TSE) (2010, 2009)
+- Springer-Verlag Transactions on Computational Science (TCS) (2010)
+- IEEE Security and Privacy Magazine (S&P) (2010)
+- International Conference on Information Security and Assurance (ISA) (2009)
+- International Conference on Information Systems Security (ICISS) (2009, 2008)
+- ACM Cloud Computing Security Workshop (CCSW) (2009)
+- Workshop on Virtual Machine Security (VMSec) (2008)
+
+[[file:files/vita.pdf][PDF Version]]
