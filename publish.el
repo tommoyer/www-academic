@@ -21,7 +21,7 @@
 	 :publishing-directory "~/Public/"
 	 :recursive t
 	 :publishing-function org-html-publish-to-html
-	 :exclude "level-0.org"
+	 :exclude "level-0.org\\|nav.org"
 	 )
 
 	("site-static"
