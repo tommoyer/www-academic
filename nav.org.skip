@@ -1,0 +1,16 @@
+#+BEGIN_HTML
+<a href="#menu" id="menuLink" class="menu-link">
+  <!-- Hamburger icon -->
+  <span></span>
+</a>
+<div id="menu">
+  <div class="pure-menu pure-menu-open">
+    <a class="pure-menu-heading" href="/">Thomas Moyer</a>
+#+END_HTML
+- [[file:pubs.org][Publications]]
+- [[file:vita.org][Vita]]
+- [[file:personal.org][Personal]]
+#+BEGIN_HTML
+  </div>
+</div>
+#+END_HTML

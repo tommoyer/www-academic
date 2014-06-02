@@ -1,7 +1,0 @@
-modifier: ThomasMoyer
-created: 
-modified: 20120611144520
-type: None
-tags: 
-
-<<search>><<closeAll>><<permaview>><<newTiddler>><<newJournal "DD MMM YYYY" "journal">><<newTiddler label:"new summary" text:{{store.getTiddlerText('SummaryTemplate')}}>><<saveChanges>><<slider chkSliderOptionsPanel OptionsPanel "options »" "Change TiddlyWiki advanced options">>

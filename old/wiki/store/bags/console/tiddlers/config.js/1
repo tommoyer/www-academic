@@ -1,7 +1,0 @@
-modifier: None
-created: 
-modified: 20120606203420
-type: text/javascript
-tags: 
-
-TiddlyWeb.host = document.location.pathname.split("/console")[0];

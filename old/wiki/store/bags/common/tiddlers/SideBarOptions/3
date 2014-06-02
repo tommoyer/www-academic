@@ -1,7 +1,0 @@
-modifier: ThomasMoyer
-created: 
-modified: 20120611144229
-type: None
-tags: 
-
-<<search>><<closeAll>><<permaview>><<newTiddler>><<newJournal "DD MMM YYYY" "journal">><<newTiddler SummaryTemplate "new summary">><<saveChanges>><<slider chkSliderOptionsPanel OptionsPanel "options »" "Change TiddlyWiki advanced options">>
