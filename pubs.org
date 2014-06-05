@@ -1,3 +1,4 @@
+#+SETUPFILE: level-0.org
 #+TITLE: Publications
 #+HTML_HEAD_EXTRA: <script type="text/javascript" src="js/jquery.min.js"></script>
 #+HTML_HEAD_EXTRA: <script type="text/javascript" src="js/bibtex_js.js"></script>

@@ -16,15 +16,7 @@
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6)
 #+HTML_CONTAINER: div
 #+HTML_DOCTYPE: html5
-#+HTML_HEAD_EXTRA: <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="css/pure-min.css">
-#+HTML_HEAD_EXTRA: <!--[if lte IE 8]>
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
-#+HTML_HEAD_EXTRA: <![endif]-->
-#+HTML_HEAD_EXTRA: <!--[if gt IE 8]><!-->
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="css/layouts/side-menu.css">
-#+HTML_HEAD_EXTRA: <!--<![endif]-->
-#+HTML_HEAD_EXTRA: <script src="js/ui.js"></script>
+#+HTML_HEAD_EXTRA: 
 #+HTML_LINK_HOME:
 #+HTML_LINK_UP:
 #+HTML_MATHJAX:

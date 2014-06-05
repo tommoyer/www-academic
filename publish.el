@@ -26,7 +26,7 @@
 
 	("site-static"
          :base-directory "~/Repos/www"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|ico"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|ico\\|bib"
          :publishing-directory "~/Public/"
          :recursive t
          :publishing-function org-publish-attachment)
