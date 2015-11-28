@@ -1,4 +1,4 @@
-#!/usr/local/bin/emacs --script
+#!/usr/bin/emacs --script
 ;; 
 ;; Usage:
 ;;    publish.el
@@ -16,18 +16,18 @@
 
 (setq org-publish-project-alist '(
 	("site-content"
-	 :base-directory "~/Repos/www"
+	 :base-directory "~/Repos/tmoyer/www"
 	 :base-extension "org"
-	 :publishing-directory "~/Public/"
+	 :publishing-directory "/var/www/www.thomasmoyer.org"
 	 :recursive t
 	 :publishing-function org-html-publish-to-html
 	 :exclude "level-0.org\\|nav.org"
 	 )
 
 	("site-static"
-         :base-directory "~/Repos/www"
+         :base-directory "~/Repos/tmoyer/www"
          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|ico\\|bib"
-         :publishing-directory "~/Public/"
+         :publishing-directory "/var/www/www.thomasmoyer.org"
          :recursive t
          :publishing-function org-publish-attachment)
 
@@ -45,6 +45,6 @@ OPTIONS contains the property list from the org-mode export."
   (let ((base-directory (plist-get options :base-directory)))
     (org-babel-with-temp-filebuffer (expand-file-name "html/postamble.html" base-directory) (buffer-string))))
 
-(shell-command "find ~/Repos/www -name \"*.org\" -exec touch '{}' \;")
+(shell-command "find ~/Repos/tmoyer/www -name \"*.org\" -exec touch '{}' \;")
 
 (org-publish-project "site" t)
