@@ -13,6 +13,7 @@
   (put sym 'safe-local-variable 'my/always-safe-local-variable))
 
 (load "~/.emacs.d/init.el")
+(require 'org)
 
 (setq org-publish-project-alist '(
 	("site-content"
