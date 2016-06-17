@@ -1,2 +1,0 @@
-1. Investigate using a before-save-hook to run tm/add-class to news.org
-2. To run a simple web server: python -m SimpleHTTPServer
