@@ -5,16 +5,20 @@ layout: default
 <!-- Main -->
 <div id="main">
     <section>
-        {% for post in site.posts %}
+    I recently defended my dissertation, titled <em>Building Scalable Document Integrity Systems</em>. Next, I will be working at <a href="http://www.ll.mit.edu">MIT Lincoln Laboratory</a>, where I will be working on various problems in Computer Security. My new contact information is reflected in the sidebar.
+    </section>
+    <section>
+        {% for post in site.posts limit: 5 %}
             <article class="">
                 <header>
-                    <h2><a href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a></h2>
+                    <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>
                 </header>
                 <section>
                     {{ post.excerpt }}
                 </section>
             </article>
         {% endfor %}
+            <a href="news.html">Older news</a>
     </section>
 </div>
 
