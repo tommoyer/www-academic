@@ -22,3 +22,16 @@ facebook_username:    tmoyer324  # Replace this with your Facebook username
 
 # Build settings
 markdown: kramdown
+
+collections:
+ news:
+   output: true
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: page

@@ -5,7 +5,8 @@ layout: default
 <!-- Main -->
 <div id="main">
     <section>
-        {% for post in site.posts %}
+      {% assign sorted = (site.news | sort: 'date') | reverse %}
+      {% for post in sorted %}
             <article class="">
                 <header>
                     <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>
