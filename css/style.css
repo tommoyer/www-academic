@@ -818,6 +818,13 @@
 		white-space: nowrap;
 	}
 
+		input[type="submit"].opaque,
+		input[type="reset"].opaque,
+		input[type="button"].opaque,
+		.button.opaque {
+		  background-color: #efefef;
+		}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
