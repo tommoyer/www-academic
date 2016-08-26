@@ -35,3 +35,5 @@ defaults:
       type: news
     values:
       layout: page
+
+exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass']
