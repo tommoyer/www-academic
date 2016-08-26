@@ -1,3 +1,5 @@
+require "ptools"
+
 task default: %w[build]
 
 desc "Launch preview environment"
@@ -7,8 +9,12 @@ end # task :preview
 
 desc "Build CV PDF"
 task :buildCV do
-  system "latexmk Moyer_cv"
-  system "mv Moyer_cv.pdf files/"
+  if File.which("latexmk")
+    system "latexmk Moyer_cv"
+    system "mv Moyer_cv.pdf files/"
+  else
+    puts "latexmk not installed, if you want to build the CV on this machine, install latexmk"
+  end
 end # task :buildCV
 
 desc "Build page"
