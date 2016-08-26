@@ -1,15 +1,18 @@
 task default: %w[build]
 
 desc "Launch preview environment"
-task :preview do
-  system "latexmk Moyer_cv"
-  system "mv Moyer_cv.pdf files/"
+task :preview => [:buildCV] do
   system "jekyll serve -w"
 end # task :preview
 
+desc "Build CV PDF"
+task :buildCV do
+  system "latexmk Moyer_cv"
+  system "mv Moyer_cv.pdf files/"
+end # task :buildCV
+
 desc "Build page"
-task :build do
-  system "latexmk -outdir=files Moyer_cv"
+task :build => [:buildCV] do
   system "jekyll build"
 end # task :build
 
@@ -17,7 +20,7 @@ desc "Clean up files"
 task :clean do
   system "latexmk -c Moyer_cv"
   system "jekyll clean"
-end
+end # task :clean
 
 def ask(message, valid_options)
   if valid_options
@@ -26,9 +29,9 @@ def ask(message, valid_options)
     answer = get_stdin(message)
   end
   answer
-end
+end # def ask
 
 def get_stdin(message)
   print message
   STDIN.gets.chomp
-end
+end # def get_stdin
