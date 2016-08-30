@@ -978,6 +978,10 @@
 			width: 6.25em;
 		}
 
+    #header ul.actions {
+        text-align: center;
+    }
+
 /* Footer */
 
 	#footer {
@@ -989,12 +993,16 @@
 		width: 35%;
 	}
 
+    #footer ul {
+      text-align: center;
+    }
+
 		#footer .icons {
 			margin: 1em 0 0 0;
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.8);
 			}
 
 		#footer .copyright {
@@ -1003,6 +1011,7 @@
 			list-style: none;
 			margin: 1em 0 0 0;
 			padding: 0;
+      text-align: center;
 		}
 
 			#footer .copyright li {
