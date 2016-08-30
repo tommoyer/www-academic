@@ -1,0 +1,144 @@
+==================================================================
+https://keybase.io/tommoyer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thomasmoyer.org
+  * I am tommoyer (https://keybase.io/tommoyer) on keybase.
+  * I have a public key with fingerprint 91F2 6785 5302 1C8E 8E3B  D7F4 5387 408F D671 6653
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010149a36c538c5dd85554944dafac262f5fa6882107325b21ce84728e7558acc69a0a",
+            "fingerprint": "91f2678553021c8e8e3bd7f45387408fd6716653",
+            "host": "keybase.io",
+            "key_id": "5387408fd6716653",
+            "kid": "010149a36c538c5dd85554944dafac262f5fa6882107325b21ce84728e7558acc69a0a",
+            "uid": "9f19983c67c1527fc45ebd1b76623919",
+            "username": "tommoyer"
+        },
+        "service": {
+            "hostname": "thomasmoyer.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472522017,
+    "expire_in": 157680000,
+    "prev": "77ac41fc2338e08cf271cd74f07582c5ab163248fe4d7c13c339c9de650d4ec4",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIrAnicrVJbSBRRGF4zs9ZuaPlQkTjY3WTOzJw5ZzYjpQv1IoGJRMoyc+bM7mS7
+s82OmogSWIT2UAn2IBIIXdboflFBhQpLzCLrIYz2pUIq8QppRlGdkXrrsfNyOP/5
+vu//vp+/d0mix5swW7r+3rs8fW3CwMPmck9x78fMak6z9CrOV82V0bmLHtFp1PGX
+mTrn43jAA0lRRZlAEROo6xhCKCmSpKuGSgRZMKChyhgLgEeiADUBEIolJGCKIMQq
+IbKi8iqXzRlmOEDtiG2GHSarAEOQEdMSecbAFFNR05EhsSZI4rGhywjIMhQZMWhF
+XQYzp6lRmmNarMYe/jl7/8D/Z9/lc3KKARQFi0RGBEABGUSCVNOBhmRZEBWguMAo
+tcNqiDK0Y4VCVhW1uZpsjlUrTELdwbpJ/iKCVkiNzoFyLDvA6BHbcixiHWGfQceJ
+RH0u2amKuOhKqvn/6Pg1M6yzUTJGBbWjphXmfIAhiWO6woBFgILAA5TN0WMR06Z+
+00VAJGOeHbcPrWCSCKlEAgYRRBFTHhNDQIDoSDJ4BLFAoKoBWRQkbFBJZ5lFIooK
+UXQqQ16XKJE4N9nRsMX5ZGZTDTDJqBkIq065TbmaRw9K5nsSvJ4FSfPcFfN4Fy3/
+u3hFzQs9/UX3p3t6n6WNdg+k/tgy/Dl3aEVbSnF76uD+nTvqBady6nDm9Mhk08jw
+xO6CrzfT67r2Xit7Wp/edmnT5lMDz290f0tW2rddX1D+gT/nbS2N9cVX5V/sXHfi
+eHxTh7a7USZZ0/2vLjTVYp8Yq82duoc2XgnS2NDt5JY1d/a8/vnlUN/10VvV8btJ
+dTNluUZLY/vpRav6G1+OjZ1fXdJakJZZ2Ppze2dOYcfm2WU96XF+oqkWKElV3Vxs
+w/jK0ozUvC5vA7HHWsTBrYsPfI/NZgd7Lp9J9OTCsYalj7X3nwZOLtlXmPb2ScqP
+isdnd/0aP5h/IlD4ZtJ3NY3MZFxanjX64jeWlkMF
+=aCxt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tommoyer
+
+==================================================================
+
+==================================================================
+https://keybase.io/tommoyer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thomasmoyer.org
+  * I am tommoyer (https://keybase.io/tommoyer) on keybase.
+  * I have a public key with fingerprint 91F2 6785 5302 1C8E 8E3B  D7F4 5387 408F D671 6653
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010149a36c538c5dd85554944dafac262f5fa6882107325b21ce84728e7558acc69a0a",
+            "fingerprint": "91f2678553021c8e8e3bd7f45387408fd6716653",
+            "host": "keybase.io",
+            "key_id": "5387408fd6716653",
+            "kid": "010149a36c538c5dd85554944dafac262f5fa6882107325b21ce84728e7558acc69a0a",
+            "uid": "9f19983c67c1527fc45ebd1b76623919",
+            "username": "tommoyer"
+        },
+        "revoke": {
+            "sig_ids": [
+                "6c215670c3facdc1026b88144059e44e7ade4caf34231838d637fc4beec6b0bc0f"
+            ]
+        },
+        "service": {
+            "hostname": "thomasmoyer.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472522171,
+    "expire_in": 157680000,
+    "prev": "245badd9295ad17b486d27aebbe983065d807f9b54a09f8449d238ad097f34d7",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMJtAnicrZJbaB1FHMZPWi94iGCQKIkSwrQExRB3Zue2K9gjhj4ogpA0kTbNYW57
+siRn97i7ORprEPtUrUWNEZEi1BKlYLR4DdJYaxsRGknblCpoBE+QCqVIaVWK4GX2
+YN98dF+G3f3+v++bb2bp5o2FYsvVnT0fNUq6q2X5i98nC8NLPx/ZBWSsp4C/C4yb
+5mImtEmz8niogQ8c6EDsCZcq4nJFtOaEEOxhrEUgFKIoIIGgnCPoMBcRiaAyHDPE
+DSOEC6WoJxwBekEQRhWT1JIwyizWgwGizLJcx05ww40rNQuwNWHY4YGmDFJKXDs4
+Fqf5hA0nRWr6wth+sy/lZrz/0P/PuSebOC+AnsddRZmCBLFAYWKkhpJRilwPerkw
+NUkkqsaqs7hajadMAqZ7QWLq8bjJe03Dig2dAn8HoApBQpmjXBtGK+ggKjmHGDvE
+MxgbJrTBSgQuRi7kLtfUzT2lMYpKRyonADst2zrWQ9WE5y1dcx+LqyJtBuiLk4qN
+VkviLFbxhP05lmW11M+DZVO1XP2EkeV/OWUZRtoek52omyQN4wj40CpVFuZgaOsh
+CEEGe4F5shYmphzmCsIod+yT+5i6RSJMpNDaQx4RGjKJOdWICSOlsR06lGjusMCT
+BAvHCzjGnkYuF9rxmN2xZiDf2eNRDHxuY4qKRdruIpFNJgZMHz82cl2hpVi44foN
++fUtFG+65dqlrqQ3/m32PNAwr71xuFFvH2l7bn7CHx5tv6PnhUNH5g//9s7Mmc/m
+FvTuh25b/WbrwMW2Wrq+JTp+4L3WZfXVU5ejY+0nhga29f76yf7B8vDq5+f9o69/
+27V9NLr35ZXk7Xs2rRT7XtwUw/qPz3/36Fszk1uvTOw7Wnz3wQ17ZzqWGuDpLn9l
+aPbZk7N/rd31yr7F852nHvmhEX/dfe7Tk7fPzV/YuGN90b00O3jfn5u3/FKdrsNT
+B3q+b2OPXW7t3DN44Y/R/R2t28t395ce3v3Swsevdp5ebR/6sn85efPO0onNByut
+hy52k0G+98Op9xfO/rQ28sz6Qmlu7WAY3z+wbtRc9wdXSh23blsc77966R+Lw16V
+=uSUi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tommoyer
+
+==================================================================
+
