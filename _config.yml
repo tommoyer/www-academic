@@ -36,4 +36,5 @@ defaults:
     values:
       layout: page
 
-exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass']
+exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md']
+include: ['.well-known']
