@@ -38,5 +38,24 @@ defaults:
     values:
       layout: page
 
-exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md']
+exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'pubs/moyer.bib', 'pubs/*.csl']
 include: ['.well-known']
+
+# jekyll-scholar configurations
+scholar:
+  style: pubs/customized-jse.csl
+  locale: en
+  sort_by: year
+  order: descending
+  source: ./pubs
+  bibliography: moyer.bib
+  details_dir: ./publs/details
+  query: "@*[public!=no]"
+
+  # Scholar has changed the way it renders bib tags
+  # Need to look at more at the defaults.
+  bibliography_list_tag: "ul"
+
+# jekyll-scholar-extras configurations
+scholar-extras:
+# TODO Options need to be reworked through

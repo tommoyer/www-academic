@@ -10,3 +10,5 @@ Moyer_cv.fls
 Moyer_cv.log
 Moyer_cv.out
 auto/
+Gemfile.lock
+*.bak
