@@ -43,7 +43,7 @@ include: ['.well-known']
 
 # jekyll-scholar configurations
 scholar:
-  style: pubs/customized-jse.csl
+  style: pubs/ieee.csl
   locale: en
   sort_by: year
   order: descending
