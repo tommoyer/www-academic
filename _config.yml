@@ -38,7 +38,7 @@ defaults:
     values:
       layout: page
 
-exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'pubs/moyer.bib', 'pubs/*.csl']
+exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'pubs/moyer.bib', 'pubs/*.csl', 'vendor', 'auto', '*.aux', '*.bbl', '*.blg', '*.fdb_latexmk', '*.fls', '*.log', '*.out']
 include: ['.well-known']
 
 # jekyll-scholar configurations
@@ -49,7 +49,7 @@ scholar:
   order: descending
   source: ./pubs
   bibliography: moyer.bib
-  details_dir: ./publs/details
+  details_dir: ./pubs/details
   query: "@*[public!=no]"
 
   # Scholar has changed the way it renders bib tags
@@ -59,3 +59,6 @@ scholar:
 # jekyll-scholar-extras configurations
 scholar-extras:
 # TODO Options need to be reworked through
+
+lsi: false
+safe: false
