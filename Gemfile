@@ -3,6 +3,6 @@ source "https://rubygems.org"
 
 gem 'jekyll'
 gem 'jekyll-scholar'
-gem 'jekyll-scholar-extras', '0.1.3', :path => 'vendor/'
+gem 'jekyll-scholar-extras'
 gem 'ptools'
 gem 'rake'
