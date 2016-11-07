@@ -6,14 +6,13 @@ layout: default
     <h1> Publications</h1>
 
 	<p>
-	  <a class="pure-button" href="{{site.baseurl}}/pubs/">By Year</a>
-	  <a class="pure-button" href="{{site.baseurl}}/pubs/bytype/">By Type</a>
-      </p>
+      <a class="button small" href="{{site.baseurl}}/pubs/byyear/">By Year</a>
+      <a class="button small" href="{{site.baseurl}}/pubs/bytype/">By Type</a>
+  </p>
 
 <div>
 {% bibliography_bytype --query @article %}
 </div>
-
 
 <div>
 {% bibliography_bytype --query @inproceedings %}
@@ -23,7 +22,6 @@ layout: default
 {% bibliography_bytype --query @book %}
 </div>
 
-
 <div>
 {% bibliography_bytype --query @incollection %}
 </div>
@@ -31,7 +29,6 @@ layout: default
 <div>
 {% bibliography_bytype --query @techreport %}
 </div>
-
 
 </div>
 
