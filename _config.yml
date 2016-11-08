@@ -43,14 +43,15 @@ include: ['.well-known']
 
 # jekyll-scholar configurations
 scholar:
-  style: pubs/ieee.csl
+  style: ./pubs/ieee.csl
   locale: en
-  sort_by: year
+  sort_by: year,month
   order: descending
   source: ./pubs
   bibliography: moyer.bib
   details_dir: ./pubs/details
   query: "@*[public!=no]"
+  parse_months: true
 
   # Scholar has changed the way it renders bib tags
   # Need to look at more at the defaults.
