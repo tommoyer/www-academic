@@ -1278,3 +1278,15 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+  ul.bibliography {
+      color: black;
+  }
+
+  .csl-year-icon {
+      color: #a2a2a2;
+  }
+
+  div.bib-note {
+      color: #a2a2a2;
+  }
