@@ -52,6 +52,8 @@ scholar:
   details_dir: ./pubs/details
   query: "@*[public!=no]"
   parse_months: true
+  bibliography_template: pubs
+  repository: pubs/
 
   # Scholar has changed the way it renders bib tags
   # Need to look at more at the defaults.
