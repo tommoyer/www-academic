@@ -34,27 +34,21 @@
 	<body id="top">
 
       <header id="header">
-          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-          <h1><strong>I am Tom Moyer</strong>, a computer and<br />
-            network security researcher<br />
+          <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <h1>I'm a <strong>computer and<br />
+              network security</strong> researcher<br />
             working at MIT Lincoln Laboratory.</h1>
           </br>
       <section>
         <ul class="actions vertical">
+          <li><a href="/" class="button small opaque">Home</a></li>
+          <li><a href="/research/" class="button small opaque">Research</a></li>
+          <li><a href="/teaching/" class="button small opaque">Teaching</a></li>
           <li><a href="/about/" class="button small opaque">About Me</a></li>
-          <li><a href="/cv/" class="button small opaque">CV</a></li>
-          <li><a href="/pubs/" class="button small opaque">Publications</a></li>
+          <li><a href="/job/" class="button small opaque">Job Materials</a></li>
         </ul>
       </section>
-
-      </header>
-
-      <section>
-        {{ content }}
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
+      <section class="footer">
             <ul class="icons">
 
               {% if site.github_username %}
@@ -133,7 +127,14 @@
                 <!--<li>Demo Images: <a href="https://unsplash.com/">Unsplash</a></li>
                 <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>-->
             </ul>
-        </footer>
+      </section>
+
+      </header>
+
+      <section>
+        {{ content }}
+        </section>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   		  <script src="/js/jquery.poptrox.min.js"></script>
   		  <script src="/js/skel.min.js"></script>
