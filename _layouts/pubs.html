@@ -1,13 +1,10 @@
 ---
 ---
-
-<div>{{reference}}</br>
+{{reference}}</br>
 {% if entry.note %}
 <span class="bib-note">{{entry.note}}</span>
 {% endif %}
-</div>
 {% if link %}<a href="{{link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> | {% endif %} <a href="#{{key | replace: '+', '--'}}-bib" data-toggle="collapse">BibTeX</a>
-<span id="{{key | replace: '+', '--'}}-bib" class="collapse">
+<div id="{{key | replace: '+', '--'}}-bib" class="collapse">
     <pre>{{ entry.bibtex }}</pre>
-</span>
-
+</div>
