@@ -3,15 +3,14 @@ require "ptools"
 task default: %w[build]
 
 desc "Launch preview environment"
-task :preview => [:buildCV] do
+task :preview do
   system "jekyll serve -w"
 end # task :preview
 
 desc "Build CV PDF"
 task :buildCV do
   if File.which("latexmk")
-    system "latexmk -pdf Moyer_cv"
-    system "mv Moyer_cv.pdf files/"
+    system "cd files; latexmk -pdf Moyer_cv"
   else
     puts "latexmk not installed, if you want to build the CV on this machine, install latexmk"
   end
@@ -24,7 +23,7 @@ end # task :build
 
 desc "Clean up files"
 task :clean do
-  system "latexmk -c Moyer_cv"
+  system "cd files; latexmk -C -bibtex Moyer_cv"
   system "jekyll clean"
 end # task :clean
 

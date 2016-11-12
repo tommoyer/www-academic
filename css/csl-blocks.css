@@ -14,9 +14,10 @@
 }
 
 .csl-index  {
-    display: inline-block;
+    display: inline;
     vertical-align: top;
     width: 7%;
+    padding-right: 0.3em;
 }
 
 .csl-content {
@@ -31,21 +32,21 @@
     vertical-align: top;
     color: blue;
     font-weight: 500;
-    
 }
-    
+
 ol {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
 
-
 .csl-year-header {
     margin-left: 1.5em;
     vertical-align: top;
     width: 100%;
     font-weight: 800;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .csl-year-icon {
@@ -86,7 +87,7 @@ ol {
 /*FF0099; */
     font-size: 18px;
     margin-left: 0em;
-    padding-right: 1em;
+    padding-right: 0.3em;
     padding-top: 0.22em;
     position: relative;
     top: 0px;
@@ -108,7 +109,7 @@ ol {
 /*3366FF;*/
     font-size: 20px;
     margin-left: 0 em;
-    padding-right: 1em;
+    padding-right: 0.3em;
     padding-top: 0.22em;
     position: relative;
     top: 0px;
@@ -130,7 +131,7 @@ ol {
 /*33FF00;*/
     font-size: 20px;
     margin-left: 0em;
-    padding-right: 1em;
+    padding-right: 0.3em;
     padding-top: 0.22em;
     position: relative;
     top: 0px;
@@ -151,7 +152,7 @@ ol {
     color: #663300;
     font-size: 18px;
     margin-left: 0em;
-    padding-right: 1em;
+    padding-right: 0.3em;
     position: relative;
     padding-top: 0.22em;
     top: 0px;
@@ -173,7 +174,7 @@ ol {
 /*FFFF00;*/
     font-size: 20px;
     margin-left: 0em;
-    padding-right: 1em;
+    padding-right: 0.3em;
     padding-top: 0.22em;
     position: relative;
     top: 0px;
