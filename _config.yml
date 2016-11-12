@@ -38,7 +38,7 @@ defaults:
     values:
       layout: page
 
-exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'Moyer_cv.tex', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'pubs/moyer.bib', 'pubs/*.csl', 'vendor', 'auto', '*.aux', '*.bbl', '*.blg', '*.fdb_latexmk', '*.fls', '*.log', '*.out']
+exclude: ['Rakefile', 'LICENSE.txt', 'README.txt', 'files/Moyer_cv.tex', 'files/moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'pubs/moyer.bib', 'pubs/*.csl', 'vendor', 'files/auto', 'files/*.aux', 'files/*.bbl', 'files/*.blg', 'files/*.fdb_latexmk', 'files/*.fls', 'files/*.log', 'files/*.out']
 include: ['.well-known']
 
 # jekyll-scholar configurations
