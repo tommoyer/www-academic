@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+# News
 
 {% assign sorted = (site.news | sort: 'date') | reverse %}
 {% for post in sorted %}
@@ -8,7 +9,7 @@ layout: page
 <header>
 <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>
 </header>
-<section>
+<section class="news-blurb">
 {{ post.excerpt }}
 </section>
 </article>

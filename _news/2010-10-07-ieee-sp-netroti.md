@@ -2,4 +2,4 @@
 layout: page
 title: 
 ---
-Our paper, Network-based Root of Trust for Installation has been accepted to appear in IEEE Security & Privacy.
+Our paper, "Network-based Root of Trust for Installation" has been accepted to appear in [IEEE Security & Privacy](https://www.computer.org/security-and-privacy/).

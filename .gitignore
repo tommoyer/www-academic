@@ -9,6 +9,8 @@ Moyer_cv.fdb_latexmk
 Moyer_cv.fls
 Moyer_cv.log
 Moyer_cv.out
+Moyer_cv.bcf
+Moyer_cv.run.xml
 auto/
 Gemfile.lock
 *.bak

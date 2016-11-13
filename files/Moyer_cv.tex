@@ -1,10 +1,13 @@
 \documentclass[10pt]{article}
 
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[backend=biber,]{biblatex}
+\bibliography{moyer.bib}
 \renewcommand{\labelitemi}{}
 
 \makeatletter
-\def\thebibliography#1{\section*{{\large \textbf{PUBLICATIONS}}\@mkboth
+\def\thebibliography#1{\section*{{\Large \textbf{PUBLICATIONS}}\@mkboth
   {PUBLICATIONS}{PUBLICATIONS}}\list
   {[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
 \advance\leftmargin\labelsep
@@ -25,7 +28,7 @@
 
 \begin{document}
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
-  \multicolumn{2}{c}{\Large{\textbf{THOMAS MOYER}}}
+  \multicolumn{2}{c}{\LARGE{\textbf{THOMAS MOYER}}}
   \vspace{1em}\\ 
   MIT Lincoln Laboratory & \href{mailto:tmoyer@ll.mit.edu}{tmoyer@ll.mit.edu}\\
   Secure, Resilient Systems and Technology\\
@@ -35,7 +38,7 @@
 \end{tabular*}
 \\
 \vspace{0.1in} 
-{\large \textbf{EDUCATION}}
+{\Large \textbf{EDUCATION}}
 
 \begin{itemize}
 \item
@@ -62,9 +65,9 @@
 
 \end{itemize}
 
-\vspace{1em} {\large \textbf{INDUSTRIAL APPOINTMENTS}}
+\vspace{1em} {\Large \textbf{INDUSTRIAL APPOINTMENTS}}
 \begin{itemize}
-\item \textbf{Technical Staff}, September 2011 to Present\\
+\item \textbf{Research Scientist}, September 2011 to Present\\
   \textit{Cyber Systems and Technology Group}, MIT Lincoln Laboratory, Lexington, MA\\
   Worked on secure system design and prototyping.\\
   Developed prototype for protected, mobile, satellite communications terminal, including addressing information assurance requirements for multiple organizations.\\
@@ -92,9 +95,9 @@
   Assisted with some minimal scientific programming for research.
 \end{itemize}
 
-\vspace{1em} {\large \textbf{ACADEMIC APPOINTMENTS}}
+\vspace{1em} {\Large \textbf{ACADEMIC APPOINTMENTS}}
 \begin{itemize}
-\item \textbf{Research Assistant}, Summer 2008 to Present\\
+\item \textbf{Research Assistant}, Summer 2008 to Fall 2011\\
   \textit{The Pennsylvania State University},
   University Park, PA\\
   Advisor: Dr. Patrick D. McDaniel\\
@@ -118,7 +121,7 @@
   Instructed students in program design and creation using the MS Visual Basic programming language.
 \end{itemize}
 
-\vspace{1em} {\large \textbf{PROFESSIONAL ACTIVITIES}}
+\vspace{1em} {\Large \textbf{PROFESSIONAL ACTIVITIES}}
 \begin{itemize}
   \item \textbf{Organizing Committee}\\
     \textit{2017:} IEEE Symposium on Security and Privacy (Oakland)\\
@@ -151,7 +154,7 @@
 
 \end{itemize}
 
-\vspace{1em} {\large \textbf{COMPUTING SKILLS}}
+\vspace{1em} {\Large \textbf{COMPUTING SKILLS}}
 \begin{itemize}
 \item \textbf{Programming Languages} - C, C++, Java, Python, Perl, PHP, JavaScript
 \item \textbf{Operating Systems} - Linux, IBM AIX, MS Windows, Sun Solaris, Mac
@@ -159,9 +162,52 @@
 
 \end{itemize}
 
-\nocite{*}
+\vspace{1em} {\Large \textbf{PUBLICATIONS}}\\
+{\large \textbf{Journal Publications}}
+\begin{enumerate}
+\item \fullcite{mbs+2012}
+\item \fullcite{smj+2011}
+\item \fullcite{bmm+2010}
+\item \fullcite{emm+2009}
+\end{enumerate}
+{\large \textbf{Conference Publications}}
+\begin{enumerate}[resume]
+\item \fullcite{scm+2016}
+\item \fullcite{mcc+2016}
+\item \fullcite{mg2016}
+\item \fullcite{btr+2015}
+\item \fullcite{mjm2012}
+\item \fullcite{hrk+2010}
+\item \fullcite{mbs+2009}
+\item \fullcite{sms+2009}
+\end{enumerate}
+{\large \textbf{Workshop Publications}}
+\begin{enumerate}[resume]
+\item \fullcite{bbm2015}
+\item \fullcite{smv+2010}
+\end{enumerate}
+{\large \textbf{Technical Reports}}
+\begin{enumerate}[resume]
+\item \fullcite{bbd+2016}
+\item \fullcite{NAS-149}
+\item \fullcite{security10-summaries}
+\item \fullcite{webapps10-summaries}
+\item \fullcite{NAS-0127}
+\item \fullcite{NAS-00114}
+\item \fullcite{NAS-00103}
+\item \fullcite{NAS-0098}
+\item \fullcite{NAS-0095}
+\end{enumerate}
 
-\bibliographystyle{plain}
-\bibliography{moyer}
-
+\vspace{1em} {\Large \textbf{Invited Talks and Presentations}}
+\begin{enumerate}[resume]
+\item \fullcite{t008}
+\item \fullcite{t007}
+\item \fullcite{t006}
+\item \fullcite{t005}
+\item \fullcite{t004}
+\item \fullcite{t003}
+\item \fullcite{t002}
+\item \fullcite{t001}
+\end{enumerate}
 \end{document}
