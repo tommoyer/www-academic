@@ -36,7 +36,7 @@ Users interact with remote machines to exchange data without first understanding
 - {% reference smv+2010 %}
 
 ## Secure Cloud Computing
-![Cloud Computing](/images/cloud-image.png){:class="research-pic" align="right"}
+<!--![Cloud Computing](/images/cloud-image.png){:class="research-pic" align="right"}-->
 
 As more and more workloads are migrated to cloud computing platforms, the question of security for these platforms becomes even more important. Users of commercial cloud computing services are expected to trust the cloud service provider, but have limited visibility into the state of the systems they are entrusting with their data. This research has focused on creating the building blocks necessary to establish and maintain a secure foundation for cloud computing. Trusted hardware and software are used to create roots of trust within the cloud that users can leverage to construct secure cloud services. The goal of this work is to develop cloud architectures that support sensitive workloads by providing strong security guarantees for the users.
 
