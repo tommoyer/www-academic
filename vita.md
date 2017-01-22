@@ -56,6 +56,7 @@ Advisor: Dr. Patrick McDaniel
 
 ## Reviewer
 *(Years removed for brevity)*
+- IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 - IEEE Symposium on Security and Privacy (Oakland)
 - Annual Computer Security Applications Conference (ACSAC)
 - ACM Computer and Communications Security Conference (CCS)
