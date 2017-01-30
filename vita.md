@@ -56,6 +56,7 @@ Advisor: Dr. Patrick McDaniel
 
 ## Reviewer
 *(Years removed for brevity)*
+- IEEE Transactions on Big Data (TBD)
 - IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 - IEEE Symposium on Security and Privacy (Oakland)
 - Annual Computer Security Applications Conference (ACSAC)
