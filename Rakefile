@@ -8,8 +8,12 @@ task :preview do
 end # task :preview
 
 desc "Build CV PDF"
-task :buildCV do
-  system "cd files; latexrun --bibtex-cmd biber Moyer_cv.tex"
+task :buildCV do 
+  if File.which("latexrun")
+    system "cd files; latexrun --bibtex-cmd biber Moyer_cv.tex"
+  else
+    puts "latexrun not installed, if you want to build the CV on this machine, install latexrun"
+  end
 end # task :buildCV
 
 desc "Build page"
