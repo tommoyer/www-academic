@@ -9,11 +9,7 @@ end # task :preview
 
 desc "Build CV PDF"
 task :buildCV do
-  if File.which("latexmk")
-    system "cd files; latexmk -pdf Moyer_cv"
-  else
-    puts "latexmk not installed, if you want to build the CV on this machine, install latexmk"
-  end
+  system "cd files; latexrun --bibtex-cmd biber Moyer_cv.tex"
 end # task :buildCV
 
 desc "Build page"
@@ -23,7 +19,7 @@ end # task :build
 
 desc "Clean up files"
 task :clean do
-  system "cd files; latexmk -C -bibtex Moyer_cv"
+  system "cd files; latexrun --clean-all"
   system "jekyll clean"
 end # task :clean
 

@@ -43,7 +43,7 @@ Advisor: Dr. Patrick McDaniel
 
 # Professional Activities
 ## Organizing Committees
-- *2017*: IEEE Symposium on Security and Privacy (Oakland)
+- *2017*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
 - *2016*: Annual Computer Security Applications Conference (ACSAC)
 - *2015*: Annual Computer Security Applications Conference (ACSAC)
 
@@ -56,6 +56,7 @@ Advisor: Dr. Patrick McDaniel
 
 ## Reviewer
 *(Years removed for brevity)*
+- ACM Transactions on Privacy and Security (TOPS)
 - IEEE Transactions on Big Data (TBD)
 - IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 - IEEE Symposium on Security and Privacy (Oakland)
@@ -84,6 +85,7 @@ Advisor: Dr. Patrick McDaniel
 - {% reference emm+2009 %}
 
 ## Conference Publications
+- {% reference bbd+2017 %}
 - {% reference scm+2016 %}
 - {% reference mcc+2016 %}
 - {% reference mg2016 %}

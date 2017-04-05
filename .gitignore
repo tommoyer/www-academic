@@ -14,3 +14,4 @@ Moyer_cv.run.xml
 auto/
 Gemfile.lock
 *.bak
+latex.out/
