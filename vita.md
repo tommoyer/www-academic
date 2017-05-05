@@ -17,8 +17,21 @@ layout: page
 **The Pennsylvania State University**  
 &nbsp;&nbsp;B.S., Computer Engineering, May 2006  
 
+# Academic Appointments
+**Assistant Professor**, starting August 2017  
+[University of North Carolina at Charlotte](http://www.uncc.edu), [Department of Software and Information Systems](http://sis.uncc.edu), Charlotte, NC  
+
+**Research Assistant**, Fall 2007 to September 2011  
+[Systems and Internet Infrastructure Security Lab](http://siis.cse.psu.edu), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
+Advisor: Dr. Patrick McDaniel  
+- Explored trusted computing and virtual machine integrity
+
+**Instructor**, Spring 2007  
+[*Computer Science and Engineering Department*](http://www.cse.psu.edu), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
+- Taught *Introduction to Algorithmic Processes* (CMPSC 101) using the Microsoft Visual Basic programming language
+
 # Industrial Appointments
-**Research Scientist**, September 2011 to Present  
+**Research Scientist**, September 2011 to August 2017  
 [*Secure Resilient Systems and Technology Group*](http://www.ll.mit.edu/mission/cybersec/SRST/SRST.html), [MIT Lincoln Laboratory](http://www.ll.mit.edu), Lexington, MA  
 - Explored trusted computing and secure data provenance to address critical national security needs
 
@@ -31,16 +44,6 @@ Mentor: [Shubho Sen](http://www.research.att.com/people/Sen_Subhabrata/index.htm
 [*Geodynamics Research Group*](https://geodyn.psu.edu/), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
 Supervisor: Dr. Kevin P. Furlong
 
-# Academic Appointments
-**Research Assistant**, Fall 2007 to September 2011  
-[Systems and Internet Infrastructure Security Lab](http://siis.cse.psu.edu), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
-Advisor: Dr. Patrick McDaniel  
-- Explored trusted computing and virtual machine integrity
-
-**Instructor**, Spring 2007  
-[*Computer Science and Engineering Department*](http://www.cse.psu.edu), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
-- Taught *Introduction to Algorithmic Processes* (CMPSC 101) using the Microsoft Visual Basic programming language
-
 # Professional Activities
 ## Organizing Committees
 - *2017*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
@@ -48,6 +51,7 @@ Advisor: Dr. Patrick McDaniel
 - *2015*: Annual Computer Security Applications Conference (ACSAC)
 
 ## Program Committees
+- *2017*: International Conference on Availability, Reliability and Security (ARES), International Workshop on Theory and Practice of Provenance (TaPP), International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS), Premier International Conference for Military Communications (MILCOM), IEEE Secure Development Conference (SecDev)
 - *2016*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
 - *2015*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
 - *2014*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES)
