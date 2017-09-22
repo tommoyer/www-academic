@@ -3,7 +3,7 @@ layout: page
 ---
 # News
 
-{% assign sorted = (site.news | sort: 'date') | reverse %}
+{% assign sorted = site.news | sort: 'date' | reverse %}
 {% for post in sorted %}
 <article class="">
 <header>
