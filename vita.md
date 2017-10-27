@@ -46,11 +46,13 @@ Supervisor: Dr. Kevin P. Furlong
 
 # Professional Activities
 ## Organizing Committees
+- *2018*: IEEE Symposium on Security and Privacy (Oakland)
 - *2017*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
 - *2016*: Annual Computer Security Applications Conference (ACSAC)
 - *2015*: Annual Computer Security Applications Conference (ACSAC)
 
 ## Program Committees
+- *2018*: Network and Distributed System Security Symposium (NDSS), USENIX Security (Security) 
 - *2017*: International Conference on Availability, Reliability and Security (ARES), International Workshop on Theory and Practice of Provenance (TaPP), International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS), Premier International Conference for Military Communications (MILCOM), IEEE Secure Development Conference (SecDev)
 - *2016*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
 - *2015*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
@@ -60,25 +62,26 @@ Supervisor: Dr. Kevin P. Furlong
 
 ## Reviewer
 *(Years removed for brevity)*
-- ACM Transactions on Privacy and Security (TOPS)
-- IEEE Transactions on Big Data (TBD)
-- IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
-- IEEE Symposium on Security and Privacy (Oakland)
-- Annual Computer Security Applications Conference (ACSAC)
+- ACM Cloud Computing Security Workshop (CCSW)
 - ACM Computer and Communications Security Conference (CCS)
-- USENIX Workshop on Hot Topics in Security (HotSec)
 - ACM Symposium on Access Control Models and Technologies (SACMAT)
 - ACM Transactions on Internet Technology (TOIT)
-- IEEE Transactions on Software Engineering (TSE)
-- Springer-Verlag Transactions on Computational Science (TCS)
+- ACM Transactions on Privacy and Security (TOPS)
+- Annual Computer Security Applications Conference (ACSAC)
+- IEEE International Conference on Computer Communications (INFOCOM)
+- IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 - IEEE Security and Privacy Magazine(S&P)
+- IEEE Symposium on Security and Privacy (Oakland)
+- IEEE Transactions on Big Data (TBD)
+- IEEE Transactions on Software Engineering (TSE)
 - International Conference on Information Security and Assurance (ISA)
-- USENIX Security Symposium (USENIX Security)
 - International Conference on Information Systems Security (ICISS)
-- ACM Cloud Computing Security Workshop (CCSW)
 - Packt Publishing
-- Workshop on Virtual Machine Security (VMSec)
+- Springer-Verlag Transactions on Computational Science (TCS)
+- USENIX Security Symposium (USENIX Security)
+- USENIX Workshop on Hot Topics in Security (HotSec)
 - Wiley Software Practiec and Experience (SPE)
+- Workshop on Virtual Machine Security (VMSec)
 
 # Publications
 
@@ -89,6 +92,7 @@ Supervisor: Dr. Kevin P. Furlong
 - {% reference emm+2009 %}
 
 ## Conference Publications
+- {% reference phg+2017 %}
 - {% reference bbd+2017 %}
 - {% reference scm+2016 %}
 - {% reference mcc+2016 %}
