@@ -52,7 +52,7 @@ Supervisor: Dr. Kevin P. Furlong
 - *2015*: Annual Computer Security Applications Conference (ACSAC)
 
 ## Program Committees
-- *2018*: Network and Distributed System Security Symposium (NDSS), USENIX Security (Security), ProvenanceWeek
+- *2018*: Network and Distributed System Security Symposium (NDSS), USENIX Security (Security), ProvenanceWeek, International Conference on Science of Cyber Security (SciSec)
 - *2017*: International Conference on Availability, Reliability and Security (ARES), International Workshop on Theory and Practice of Provenance (TaPP), International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS), Premier International Conference for Military Communications (MILCOM), IEEE Secure Development Conference (SecDev)
 - *2016*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
 - *2015*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
