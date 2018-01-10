@@ -86,6 +86,7 @@ Supervisor: Dr. Kevin P. Furlong
 # Publications
 
 ## Journal Publications
+- {% reference bth+2017 %}
 - {% reference mbs+2012 %}
 - {% reference smj+2011 %}
 - {% reference bmm+2010 %}
