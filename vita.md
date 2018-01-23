@@ -106,6 +106,7 @@ Supervisor: Dr. Kevin P. Furlong
 - {% reference sms+2009 %}
 
 ## Workshop Publications
+- {% reference lhm+2017 %}
 - {% reference bbm2015 %}
 - {% reference smv+2010 %}
 
