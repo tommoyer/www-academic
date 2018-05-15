@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-[Download PDF](/files/Moyer_cv.pdf)
+[Download PDF](files/Moyer_cv.pdf)
 
 # Education
 **The Pennsylvania State University**  
@@ -18,10 +18,10 @@ layout: page
 &nbsp;&nbsp;B.S., Computer Engineering, May 2006  
 
 # Academic Appointments
-**Assistant Professor**, starting August 2017  
+**Assistant Professor**, August 2017 to present  
 [University of North Carolina at Charlotte](http://www.uncc.edu), [Department of Software and Information Systems](http://sis.uncc.edu), Charlotte, NC  
 
-**Research Assistant**, Fall 2007 to September 2011  
+**Research Assistant**, Summer 2007 to Fall 2011  
 [Systems and Internet Infrastructure Security Lab](http://siis.cse.psu.edu), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
 Advisor: Dr. Patrick McDaniel  
 - Explored trusted computing and virtual machine integrity
@@ -31,7 +31,7 @@ Advisor: Dr. Patrick McDaniel
 - Taught *Introduction to Algorithmic Processes* (CMPSC 101) using the Microsoft Visual Basic programming language
 
 # Industrial Appointments
-**Research Scientist**, September 2011 to August 2017  
+**Research Scientist**, Fall 2011 to Summer 2017  
 [*Secure Resilient Systems and Technology Group*](http://www.ll.mit.edu/mission/cybersec/SRST/SRST.html), [MIT Lincoln Laboratory](http://www.ll.mit.edu), Lexington, MA  
 - Explored trusted computing and secure data provenance to address critical national security needs
 
@@ -40,19 +40,19 @@ Advisor: Dr. Patrick McDaniel
 Mentor: [Shubho Sen](http://www.research.att.com/people/Sen_Subhabrata/index.html?fbid=EOyV-w1AhQj)  
 - Developed tools to support automated configuration management of networking infrastructure
 
-**Systems Administrator**, March 2004 to Summer 2007  
+**Systems Administrator**, Spring 2004 to Summer 2007  
 [*Geodynamics Research Group*](https://geodyn.psu.edu/), [The Pennsylvania State University](http://www.psu.edu), University Park, PA  
 Supervisor: Dr. Kevin P. Furlong
 
 # Professional Activities
 ## Organizing Committees
-- *2018*: IEEE Symposium on Security and Privacy (Oakland)
+- *2018*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
 - *2017*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
 - *2016*: Annual Computer Security Applications Conference (ACSAC)
 - *2015*: Annual Computer Security Applications Conference (ACSAC)
 
 ## Program Committees
-- *2018*: Network and Distributed System Security Symposium (NDSS), USENIX Security (Security), ProvenanceWeek, International Conference on Science of Cyber Security (SciSec)
+- *2018*: Network and Distributed System Security Symposium (NDSS), USENIX Security (Security), International Workshop on Theory and Practice of Provenance (TaPP), International Conference on Science of Cyber Security (SciSec), IEEE Secure Development Conference (SecDev), Premier International Conference for Military Communications (MILCOM)
 - *2017*: International Conference on Availability, Reliability and Security (ARES), International Workshop on Theory and Practice of Provenance (TaPP), International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS), Premier International Conference for Military Communications (MILCOM), IEEE Secure Development Conference (SecDev)
 - *2016*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
 - *2015*: Annual Computer Security Applications Conference (ACSAC), International Conference on Availability, Reliability and Security (ARES), Premier International Conference for Military Communications (MILCOM)
@@ -73,6 +73,7 @@ Supervisor: Dr. Kevin P. Furlong
 - IEEE Security and Privacy Magazine(S&P)
 - IEEE Symposium on Security and Privacy (Oakland)
 - IEEE Transactions on Big Data (TBD)
+- IEEE Transactions on Dependable and Secure Computing (TDSC)
 - IEEE Transactions on Software Engineering (TSE)
 - International Conference on Information Security and Assurance (ISA)
 - International Conference on Information Systems Security (ICISS)
@@ -80,8 +81,12 @@ Supervisor: Dr. Kevin P. Furlong
 - Springer-Verlag Transactions on Computational Science (TCS)
 - USENIX Security Symposium (USENIX Security)
 - USENIX Workshop on Hot Topics in Security (HotSec)
-- Wiley Software Practiec and Experience (SPE)
+- Wiley Software Practice and Experience (SPE)
 - Workshop on Virtual Machine Security (VMSec)
+
+# Teaching
+- ITIS 3110 -- IT Infrastructure II: Design and Practice -- Fall 2017, Spring 2018
+- ITIS 4010 -- Topics in SIS: "Competitive Cyber Defense" -- Spring 2018
 
 # Publications
 
@@ -131,4 +136,4 @@ Supervisor: Dr. Kevin P. Furlong
 - {% reference t002 %}
 - {% reference t001 %}
 
-[Download PDF](/files/Moyer_cv.pdf)
+[Download PDF](files/Moyer_cv.pdf)
