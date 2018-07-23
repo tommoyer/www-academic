@@ -4,7 +4,7 @@ task default: %w[build]
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve -w"
+  system "bundle exec jekyll serve -w"
 end # task :preview
 
 desc "Build CV PDF"
@@ -18,13 +18,13 @@ end # task :buildCV
 
 desc "Build page"
 task :build => [:buildCV] do
-  system "jekyll build"
+  system "bundle exec jekyll build"
 end # task :build
 
 desc "Clean up files"
 task :clean do
   system "cd files; latexrun --clean-all"
-  system "jekyll clean"
+  system "bundle exec jekyll clean"
 end # task :clean
 
 def ask(message, valid_options)

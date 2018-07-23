@@ -46,10 +46,12 @@ Supervisor: Dr. Kevin P. Furlong
 
 # Professional Activities
 ## Organizing Committees
-- *2018*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
-- *2017*: IEEE Symposium on Security and Privacy (Oakland), Annual Computer Security Applications Conference (ACSAC)
-- *2016*: Annual Computer Security Applications Conference (ACSAC)
-- *2015*: Annual Computer Security Applications Conference (ACSAC)
+- *2020*: IEEE Secure Development Conference (SecDev, Treasurer)
+- *2019*: IEEE Symposium on Security and Privacy (Oakland, Student PC Chair)
+- *2018*: IEEE Symposium on Security and Privacy (Oakland, Treasurer), Annual Computer Security Applications Conference (ACSAC)
+- *2017*: IEEE Symposium on Security and Privacy (Oakland, Treasurer), Annual Computer Security Applications Conference (ACSAC, Poster and WiP Chair)
+- *2016*: Annual Computer Security Applications Conference (ACSAC, Poster and WiP Chair)
+- *2015*: Annual Computer Security Applications Conference (ACSAC, Poster and WiP Chair)
 
 ## Program Committees
 - *2018*: Network and Distributed System Security Symposium (NDSS), USENIX Security (Security), International Workshop on Theory and Practice of Provenance (TaPP), International Conference on Science of Cyber Security (SciSec), IEEE Secure Development Conference (SecDev), Premier International Conference for Military Communications (MILCOM)
