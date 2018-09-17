@@ -130,6 +130,10 @@ Supervisor: Dr. Kevin P. Furlong
 - {% reference NAS-0095 %}
 
 # Presentations and Invited Talks
+- {% reference t012 %}
+- {% reference t011 %}
+- {% reference t010 %}
+- {% reference t009 %}
 - {% reference t008 %}
 - {% reference t007 %}
 - {% reference t006 %}
