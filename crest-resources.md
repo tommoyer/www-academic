@@ -7,10 +7,10 @@ This page includes information that is useful for CReST members, including links
 
 ## Research Equipment
 * General VM hosting
-  * cci-crest-vm0.uncc.edu [Management Interface](https://cci-crest-vm0-idrac.uncc.edu)
+  * cci-crest-vm0.dyn.uncc.edu [Management Interface](https://cci-crest-vm0-idrac.uncc.edu)
 * SGX-enabled hosts
-  * cci-crest-sgx0.uncc.edu [Management Interface]()
-  * cci-crest-sgx1.uncc.edu [Management Interface]()
+  * cci-crest-sgx0.dyn.uncc.edu [Management Interface]()
+  * cci-crest-sgx1.dyn.uncc.edu [Management Interface]()
 * OpenFlow Switch 
 
 ## Services
