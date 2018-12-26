@@ -87,8 +87,8 @@ Supervisor: Dr. Kevin P. Furlong
 - Workshop on Virtual Machine Security (VMSec)
 
 # Teaching
-- ITIS 3110 -- IT Infrastructure II: Design and Practice -- Fall 2017, Spring 2018
-- ITIS 4010 -- Topics in SIS: "Competitive Cyber Defense" -- Spring 2018
+- ITIS 3110 -- IT Infrastructure II: Design and Practice -- Fall 2017, Spring 2018, Fall 2018, Spring 2019
+- ITIS 4010 -- Topics in SIS: "Competitive Cyber Defense" -- Spring 2018, Spring 2019
 
 # Students
 
