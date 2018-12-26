@@ -90,6 +90,20 @@ Supervisor: Dr. Kevin P. Furlong
 - ITIS 3110 -- IT Infrastructure II: Design and Practice -- Fall 2017, Spring 2018
 - ITIS 4010 -- Topics in SIS: "Competitive Cyber Defense" -- Spring 2018
 
+# Students
+
+## Current PhD Students
+- Abdullah Al Farooq, expected Spring 2020
+
+## Current MS Students
+- Jessica Marquard, expected Summer 2019
+- Trevon Williams, expected Summer 2019
+
+## PhD Alumni
+
+## MS Alumni
+- Anibal J. Robles Perez, Fall 2018, now PhD Student at UNC Charlotte
+
 # Publications
 
 ## Journal Publications
