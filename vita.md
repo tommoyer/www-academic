@@ -114,6 +114,7 @@ Supervisor: Dr. Kevin P. Furlong
 - {% reference emm+2009 %}
 
 ## Conference Publications
+- {% reference aamk2019 %}
 - {% reference hbm2018 %}
 - {% reference phg+2017 %}
 - {% reference bbd+2017 %}
