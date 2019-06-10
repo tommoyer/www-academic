@@ -1,0 +1,53 @@
+
+## Journal Publications
+* {% reference bth+2017 %}
+* {% reference mbs+2012 %}
+* {% reference smj+2011 %}
+* {% reference bmm+2010 %}
+* {% reference emm+2009 %}
+
+## Conference Publications
+* {% reference aamk2019 %}
+* {% reference phm+2018 %}
+* {% reference hbm2018 %}
+* {% reference phg+2017 %}
+* {% reference bbd+2017 %}
+* {% reference scm+2016 %}
+* {% reference mcc+2016 %}
+* {% reference mg2016 %}
+* {% reference btb+2015 %}
+* {% reference mjm2012 %}
+* {% reference hrk+2010 %}
+* {% reference mbs+2009 %}
+* {% reference sms+2009 %}
+
+## Workshop Publications
+* {% reference smm2018 %}
+* {% reference lhm+2017 %}
+* {% reference bbm2015 %}
+* {% reference smv+2010 %}
+
+## Technical Reports
+* {% reference bbd+2016 %}
+* {% reference NAS-149 %}
+* {% reference security10-summaries %}
+* {% reference webapps10-summaries %}
+* {% reference NAS-0127 %}
+* {% reference NAS-00114 %}
+* {% reference NAS-00103 %}
+* {% reference NAS-0098 %}
+* {% reference NAS-0095 %}
+
+## Presentations and Invited Talks
+* {% reference t012 %}
+* {% reference t011 %}
+* {% reference t010 %}
+* {% reference t009 %}
+* {% reference t008 %}
+* {% reference t007 %}
+* {% reference t006 %}
+* {% reference t005 %}
+* {% reference t004 %}
+* {% reference t003 %}
+* {% reference t002 %}
+* {% reference t001 %}

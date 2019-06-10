@@ -10,8 +10,6 @@ end # task :preview
 desc "Build page"
 task :build do
   system "./build_cv.sh"
-  system "rm -f activities.md ; sed 's/ {-}//' activities.inp > activities.md"
-  system "rm -f pubs.md ; sed 's/ {-}//' pubs.inp > pubs.md"
   system "bundle exec jekyll build"
 end # task :build
 
