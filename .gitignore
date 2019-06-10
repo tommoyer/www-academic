@@ -16,3 +16,8 @@ Gemfile.lock
 *.bak
 latex.out/
 !*.pdf
+activities.tex
+pubs.tex
+activities.md
+pubs.md
+pubs_tex.md
