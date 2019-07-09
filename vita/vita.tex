@@ -1,0 +1,195 @@
+\documentclass[10pt]{article}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[backend=biber,style=verbose,maxbibnames=99,maxcitenames=99]{biblatex}
+\usepackage{comment}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{totpages}
+\usepackage{etoolbox}
+\usepackage{framed}
+
+\newenvironment{quotationb}%
+{\begin{leftbar}\begin{quotation}}%
+{\end{quotation}\end{leftbar}}
+
+\newtoggle{REVIEW}
+\togglefalse{REVIEW}
+%\toggletrue{REVIEW}
+
+\hypersetup{colorlinks,%
+  citecolor=black,%
+  filecolor=black,%
+  linkcolor=black,%
+  urlcolor=black}
+
+%\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\hyphenpenalty=10000
+
+\pagestyle{fancy}
+\fancyhead[C]{Thomas Moyer}
+\fancyhead[L,R]{}
+\fancyfoot[C]{Curriculum Vitae}
+\fancyfoot[L]{July 2019}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength{\parskip}{0.65em}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0.25em}}
+
+\bibliography{moyer.bib}
+
+\begin{document}
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+  \multicolumn{2}{c}{\Large{\textsc{Curriculum Vitae}}}
+  \vspace{1em}\\ 
+  Thomas Moyer\\
+  333G Woodward Hall\\
+  University of North Carolina at Charlotte & \href{mailto:tom.moyer@uncc.edu}{tom.moyer@uncc.edu}\\
+  9201 University City Blvd. & (704) 687-8194 \\
+  Charlotte, NC 28223
+  \\
+\end{tabular*}
+\\
+
+\vspace{0.1in} 
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\renewcommand{\labelitemi}{}
+\begin{itemize}
+\tightlist
+\item
+  \begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
+    \href{http://www.psu.edu}{\textbf{The Pennsylvania State University}} & University Park, PA \\
+    PhD, Computer Science and Engineering, December 2011 & \\
+    Advisor: \href{http://www.patrickmcdaniel.org}{Dr. Patrick D. McDaniel} & \\
+    Dissertation Title: \em{Building Scalable Document Integrity Systems} & %\\
+  \end{tabular*}
+
+\item
+  \begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
+    \href{http://www.psu.edu}{\textbf{The Pennsylvania State University}} & University Park, PA \\
+    MS, Computer Science and Engineering, 2009 & \\
+    Advisor: \href{http://www.patrickmcdaniel.org}{Dr. Patrick D. McDaniel} & \\
+    Thesis Title: \em{Scalable Web Content Attestations} & %\\
+  \end{tabular*}
+
+\item
+  \begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
+    \href{http://www.psu.edu}{\textbf{The Pennsylvania State University}} & University Park, PA \\
+    B.S., Computer Engineering, 2006 & 
+  \end{tabular*}
+
+\end{itemize}
+\renewcommand{\labelitemi}{\textbullet}
+
+\hypertarget{professional-experience}{%
+\section{Professional Experience}\label{professional-experience}}
+
+\begin{itemize}
+\tightlist
+\item \textbf{Assistant Professor}, August 2017-present\\
+  \textit{University of North Carolina at Charlotte},\\
+  \textit{Department of Software and Information Systems}\\
+  Charlotte, NC\\
+
+\item \textbf{Research Scientist}, September 2011 to August 2017\\
+  \textit{Cyber Systems and Technology Group}, MIT Lincoln Laboratory, Lexington, MA\\
+  Worked on secure system design and prototyping.\\
+  Developed prototype for protected, mobile, satellite communications terminal, including addressing information assurance requirements for multiple organizations.\\
+  Developed understanding of certification and accreditation processes used to certify information systems.\\
+  Participated in blue-team threat assessment for legacy computer systems.\\
+  Supported DoD ASD(R\&E) Information Systems and Cyber Technologies office as subject matter expert in cyber security.\\
+  Developed secure data provenance architectures for large-scale enterprise systems.\\
+
+\item \textbf{Research Assistant}, May 2008 to September 2011\\
+  \textit{The Pennsylvania State University},
+  University Park, PA\\
+  Advisor: Dr. Patrick D. McDaniel\\
+  Worked on problems in virtual machine security.\\
+  Utilized technologies for virtualization and trusted hardware to develop secure computing applications.\\
+  Worked on problems in Web security.
+
+\item \textbf{Research Assistant}, September 2007 to May 2008\\
+  \textit{The Pennsylvania State University},
+  University Park, PA\\
+  Advisor: Dr. Patrick D. McDaniel\\
+  Mentor: Dr. Subhabrata Sen\\
+  Worked on problems in configuration management.\\
+  Assisted in developing/testing tool for creating router configurations.
+
+\item \textbf{Summer Research Intern AT\&T}, May 2007 to September 2007\\
+  \textit{Internet and Networking Systems Research Center}, AT\&T Labs
+  Research,
+  Florham Park, NJ\\
+  Mentor: Dr. Subhabrata Sen\\
+  Worked on problems in configuration management.\\
+  Assisted in developing internal tool for creating configurations.
+
+\item \textbf{Instructor}, January 2007 to May 2007\\
+  \textit{The Pennsylvania State University},
+  University Park, PA\\
+  Department of Computer Science Engineering, Pennsylvania State University\\
+  Introduction to Algorithmic Processes (CMPSC 101)\\
+  Instructed students in program design and creation using the MS Visual Basic programming language.
+
+\end{itemize}
+
+%\hypertarget{licenses-and-certifications}{%
+%\section{Licenses and Certifications}\label{licenses-and-certifications}}
+%\addcontentsline{toc}{section}{licenses-and-certifications}
+
+\iftoggle{REVIEW}{
+  \hypertarget{career-highlights}{%
+  \section{Career Highlights}\label{career-highlights}}
+  \input{highlights}
+}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+\input{publications}
+
+\iftoggle{REVIEW}{
+  \hypertarget{funding}{%
+  \section{Extramural Funding}\label{funding}}
+  \input{funding}
+}
+
+\hypertarget{students}{%
+\section{Student Supervision}\label{students}}
+\input{students}
+
+\hypertarget{teaching}{%
+\section{Teaching}\label{teaching}}
+
+\iftoggle{REVIEW}{
+  \input{teaching-accomp}
+}
+\input{teaching}
+
+\hypertarget{service}{%
+\section{Service and Outreach}\label{service}}
+\iftoggle{REVIEW}{
+  \input{service-accomp}
+}
+\input{service-external}
+\iftoggle{REVIEW}{
+  \input{service-panels}
+  \input{service-internal}
+}
+\iftoggle{REVIEW}{
+  \input{leadership}
+  \input{research-stmt}
+  \input{teaching-stmt}
+  \input{peers}
+  \input{venues}
+}
+
+\end{document}
