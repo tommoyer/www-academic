@@ -88,7 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 3.8)
   jekyll-scholar
   jekyll-scholar-extras!
   ptools
@@ -97,4 +97,4 @@ DEPENDENCIES
   unicode_utils
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
