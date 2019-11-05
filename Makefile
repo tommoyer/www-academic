@@ -2,7 +2,7 @@ host_port = 3000
 jekyll_version = 3.8
 image = tommoyer/www
 
-do_size = 1gb
+do_size = s-1vcpu-1gb
 do_image = ubuntu-16-04-x64
 do_region = nyc3
 do_ssh_key_fingerprint = 79:a1:1b:39:08:fe:44:46:98:6a:e7:6d:a6:9c:81:ea
