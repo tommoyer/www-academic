@@ -23,7 +23,7 @@ push: build
 .PHONY: provision
 provision:
 ifeq ($(shell docker-machine ls --format "{{.Name}}" --filter name=$(do_droplet_name) | wc -l | awk '{print $$1}'),0)
-	docker-machine create \
+	docker-machine -D create \
 		 --driver=digitalocean \
 		 --digitalocean-access-token=$(shell bash -c 'read -s -p "Digital Ocean Personal Access Token: " pwd; echo $$pwd') \
      --digitalocean-size=$(do_size) \
