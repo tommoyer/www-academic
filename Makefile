@@ -10,6 +10,7 @@ do_droplet_name = www
 
 .PHONY: build
 build:
+	pushd vita; latexrun --bibtex-cmd biber vita ; popd
 	docker run --rm \
              --volume="$PWD:/srv/jekyll" \
              -it jekyll/jekyll:$(jekyll_version) \
