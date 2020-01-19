@@ -38,7 +38,7 @@ defaults:
     values:
       layout: page
 
-exclude: ['manage.sh', 'LICENSE.txt', 'README.txt', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'buidl_cv.sh', 'pubs/moyer.bib', 'pubs/*.csl', 'vendor', 'pubs.md', 'activities.md', '*.tex', 'vita/latex.out', 'vita/moyer.bib']
+exclude: ['manage.sh', 'LICENSE.txt', 'README.txt', 'moyer.bib', 'sass', '*/metadata', 'Gemfile', 'Gemfile.lock', 'README.md', 'buidl_cv.sh', 'pubs/moyer.bib', 'pubs/*.csl', 'vendor', 'pubs.md', 'activities.md', '*.tex', 'vita/latex.out', 'vita/moyer.bib', 'data', 'LICENSE', 'Makefile', 'config.make', 'docker-compose.yml', 'init-letsencrypt.sh', 'make.defaults', 'thomasmoyer.org.conf']
 include: ['.well-known']
 
 # jekyll-scholar configurations
