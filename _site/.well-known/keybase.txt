@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/tommoyer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thomasmoyer.org
+  * I am tommoyer (https://keybase.io/tommoyer) on keybase.
+  * I have a public key with fingerprint FAC5 7765 B427 D26B F689  FF95 CF41 72F5 5936 BDD8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018c70f254e9a820b2c554e8fe3299bbcad0ce6b4a0e242d0ad5dddabc80d4a9820a",
+      "fingerprint": "fac57765b427d26bf689ff95cf4172f55936bdd8",
+      "host": "keybase.io",
+      "key_id": "cf4172f55936bdd8",
+      "kid": "01018c70f254e9a820b2c554e8fe3299bbcad0ce6b4a0e242d0ad5dddabc80d4a9820a",
+      "uid": "9f19983c67c1527fc45ebd1b76623919",
+      "username": "tommoyer"
+    },
+    "service": {
+      "hostname": "thomasmoyer.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1516450846,
+  "expire_in": 157680000,
+  "prev": "a061e26eb996558883fbaa65d6db360b8bd15cdeec12354bfb28ab1a9237b0f9",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkmtMHFUUx3dhKbC1iiWQmgjiFK1QxHk/ti0BAywSoRhxWy3JZu7MHZgu+2Bm
+ebnWbBohQEupiMSo21YIXQzNQm0pEGJBKyQC+qEiULFUMOWhgUaKsTYGnSXyzY/e
+L/fec3///z3n5JzdFaoz6r/+MfvT5IAtTT++AnRvCCTiQYBTrEZMHsQGtzZYKkLV
+bbXJImJCUAzFWIFBJZwiIcezOApwgdLOrAQJnOMAEHgRFSANSB6FOImLKC9Soijy
+QGBRkeQ5TcIjKYgkO4qh4lJkh1uzlXiBYhiaAiTOiDgNJJrlJImjBInEGFyiKI6g
+gSiymrDEqQYVWnKAV2Gq7NRi2sW6ld5/8P9z3uVbdpyEcRxLCDQjYBTOSAJJQSBi
+gKFpnOAwLgiqUHHwdqjRbqfd7qyGCnIiBdGiFbIAg40NVrJNlDjtvLoFpTqVYk3u
+Upxup+As1R5L3G6XagqK3dWuIF0JgfVfHyuQHaLWSk1RARVVdjoQE6aRglsOGmMU
+RpMUypJ0CgKrXLICrXKQoBiaRbUV/AdWaJY8SmNFEKch4DiaoliWJSTA8zQl0iIg
+aBSwWnmUIEIoYDhBkUACOMsDjOdwggGoFKxYhWUOJ2IicC1RvlgzVeViB+8uVyBy
+wlgfQhh0eqMuLvZpQ30gfGBB2ShMeCX88+35CwsJDp/OGBm1HancFaW7Et2rO/VU
+DltoO52SNNifNFb1wS/YUp+YF3kmravQm/tkz9r7Vy8sZu59eR671vlFZyDQkBUS
+PV47dftklGUnOv5c+eN3NzYOfGyzb5qp+dqV8seaqu4v1jTX9naAtZYV9RneKw8e
+uVBk2yuU6PN334saTFMPeR2Zc5sPO7tXf62f+OO7pduTaty5sjJh2OKKXNtjayhq
+9rsCD5O8uiNThoBnzpwxxFD+kcONRuPo26191mN8SHF8S9oPhw/pLZ/4lOrjLYbX
+B/zSZ1ef0CsZ5qT1iwl550KFmJXZD98ZLaudW/T7LkZM/9U1lXWDMKR3f9T2e/sq
+ASxYY4u5YL/hDPJWdKJwFCOzpsdSZ16ibjXX3VkJdNccHLHnja9nZ988uuwrjdVf
+ak0YKBjecTrKn88j5Hy7Yagt7uRSmMv822iMlHz2AXqrdPd0oiUxvu/dR9KbEsc3
+6p/NmK1b7s98IabD4G7bn7Pv+9f2/DyWuGAMT773/OU7NaZjf14ZCK38xuuxeXZe
+Pp8XaBgqNJtjY8L3oXXXl3+aWJgw5E7ebYvwZyqXJEt7c85k6fmCJqUP/9LRGJn7
+qNdjCKRf+9tdnhPemWBn+n1o62bEDqtvuMO3UQYe9J6auf9tu3FzhL2xbjbnHHyv
+Z7Yn/vj1mZtdL3oPhLWOgVe/6n1z0Evnr/4D
+=4e/W
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tommoyer
+
+==================================================================
