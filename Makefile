@@ -3,7 +3,7 @@ include config.make
 
 .PHONY: build
 build:
-> pushd vita; latexrun --bibtex-cmd biber vita ; popd
+> pushd vita; latex-docker latexrun --bibtex-cmd biber vita ; popd
 > docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:$(jekyll_version) jekyll build
 > git commit -a -m "Build and commit"
 > git push
