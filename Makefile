@@ -1,14 +1,14 @@
 include make.defaults
 include config.make
 
+.PHONY: buildCV
+buildCV:
+> pushd vita; latexrun --bibtex-cmd biber vita ; popd
+
 .PHONY: build
 build:
-> pushd vita; latexrun --bibtex-cmd biber vita ; popd
 > docker run --rm --volume="${PWD}:/srv/jekyll" -it jekyll/jekyll:$(jekyll_version) jekyll build
-> git commit -a -m "Build and commit"
-> git push
 
-.PHONY: deploy
-deploy:
-> ssh $(docker_user)@$(docker_host) "cd www; git pull"
-> docker-compose -H ssh://$(docker_user)@$(docker_host) up -d
+.PHONY: serve
+serve:
+> docker run --rm --expose 4000 --volume="${PWD}:/srv/jekyll" -it jekyll/jekyll:$(jekyll_version) jekyll serve
