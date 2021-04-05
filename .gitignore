@@ -8,3 +8,5 @@ pubs_tex.md
 /data/certbot
 /vita/*
 !/vita/vita.pdf
+/vita-industry/*
+!/vita-industry/vita.pdf
