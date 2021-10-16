@@ -1,9 +1,37 @@
-include make.defaults
-include config.make
+# Use bash instead of sh
+SHELL := bash
+
+# Spawn one shell per rule instead of one per line
+.ONESHELL:
+
+# Ensure that bash runs in strict mode
+.SHELLFLAGS := -eu -o pipefail -c
+
+# Delete any generated files on errors
+.DELETE_ON_ERROR:
+
+# Warn if using an undefined variable
+MAKEFLAGS += --warn-undefined-variables
+
+# Remove all "magic" rules
+MAKEFLAGS += --no-builtin-rules
+
+# Use "> " instead of tabs for indents in rules
+ifeq ($(origin .RECIPEPREFIX), undefined)
+  $(error This Make does not support .RECIPEPREFIX. Please use GNU Make 4.0 or later)
+endif
+.RECIPEPREFIX = >
+
+host_port = 3000
+jekyll_version = 3.8
+image = tommoyer/www
+
+docker_user = tmoyer2
+docker_host = thomasmoyer.org
 
 .PHONY: build
 build: buildCV
-> docker run --rm --volume="${PWD}:/srv/jekyll" -it jekyll/jekyll:$(jekyll_version) jekyll build
+> podman run --rm --volume="${PWD}:/srv/jekyll" -it docker.io/jekyll/jekyll:$(jekyll_version) jekyll build
 
 .PHONY: buildCV
 buildCV:
@@ -11,4 +39,4 @@ buildCV:
 
 .PHONY: serve
 serve:
-> docker run --rm --expose 4000 --volume="${PWD}:/srv/jekyll" -it jekyll/jekyll:$(jekyll_version) jekyll serve
+> podman run --rm --expose 4000 --volume="${PWD}:/srv/jekyll" -it docker.io/jekyll/jekyll:$(jekyll_version) jekyll serve
