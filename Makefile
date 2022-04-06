@@ -26,7 +26,7 @@ jekyll_version = 3.8
 
 .PHONY: build
 build: buildCV
-> podman run --rm --volume="${PWD}:/srv/jekyll" -it docker.io/jekyll/jekyll:$(jekyll_version) jekyll build
+> podman run --rm --volume=".:/srv/jekyll" -it docker.io/jekyll/jekyll:$(jekyll_version) jekyll build
 
 .PHONY: buildCV
 buildCV:
@@ -34,4 +34,4 @@ buildCV:
 
 .PHONY: serve
 serve:
-> podman run --rm --expose 4000 --volume="${PWD}:/srv/jekyll" -it docker.io/jekyll/jekyll:$(jekyll_version) jekyll serve
+> podman run --rm --expose 4000 --volume=".:/srv/jekyll" -it docker.io/jekyll/jekyll:$(jekyll_version) jekyll serve
