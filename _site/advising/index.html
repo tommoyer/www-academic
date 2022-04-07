@@ -135,53 +135,11 @@
         </header>
 
         <section>
-            <h1 id="research">Research</h1>
+            <h1 id="advising">Advising</h1>
 
-<p>My research focuses on security of computer systems and networks, addressing the challenges of establishing and maintaining integrity of the systems and data being processed. Within this broad area, my interests span several domains including traditional enterprise computing and cloud computing. More detailed information about my work can be found at:</p>
+<p>For undergraduate advising issues, please use the following form to submit a request for advising.</p>
 
-<p>My major research thrusts include:</p>
-
-<h2 id="secure-data-provenance">Secure Data Provenance</h2>
-<p><img src="/images/prov-image.png" alt="End-to-end data provenance" class="research-pic" align="right" /></p>
-
-<p>Modern computers provide little in the way of transparency for end users. Data is often processed and results generated without the user being fully aware of the inputs used to generate an output. This model leads to threats that users are powerless to defend against. Furthermore, detecting and mitigating attacks becomes increasingly challenging. This research has focused on addressing these challenges through secure collection and use of <em>data provenance</em>. Provenance-aware systems collect metadata that details the history of each data object processed by the system. The goal of this work is to build systems that can accurately detect and mitigate attacks that compromise the integrity of the data being processed.</p>
-
-<h3 id="recent-papers">Recent Papers</h3>
-
-<ul>
-  <li><span id="mg2016">T. Moyer and V. Gadepally, “High-throughput Ingest of Data Provenance Records into Accumulo,” in <i>2016 IEEE High Performance Extreme Computing Conference, HPEC 2016, Waltham, MA, USA, September 13-15, 2016</i>, Sep. 2016, pp. 1–6.</span></li>
-  <li><span id="mcc+2016">T. Moyer, P. T. Cable, K. Chadha, R. Cunningham, N. Schear, W. Smith, A. Bates, K. Butler, F. Capobianco, and T. Jaeger, “Leveraging Data Provenance to Enhance Cyber Resilience,” in <i>1st IEEE Cybersecurity Development (SecDev)</i>, Nov. 2016.</span></li>
-  <li><span id="bbm2015">A. Bates, K. R. B. Butler, and T. Moyer, “Take Only What You Need: Leveraging Mandatory Access Control Policy to Reduce Provenance Storage Costs,” in <i>7th USENIX Workshop on the Theory and Practice of Provenance (TaPP 15)</i>, Edinburgh, Scotland, Jul. 2015.</span></li>
-  <li>(missing reference)</li>
-</ul>
-
-<h2 id="trusted-computing">Trusted Computing</h2>
-<p><img src="/images/tc-image.png" alt="Trusted Computing" class="research-pic" align="left" /></p>
-
-<p>Users interact with remote machines to exchange data without first understanding the state of the remote system. The <em>integrity state</em> of a machine provides a user with evidence that the system has not been compromised. Consider a web server hosting a login page that is modified by an attacker to send user credentials to an attacker-controlled server. Users currently have few, if any, options to validate that the remote web server is not compromised. This research has focused on building systems that leverage trusted hardware to provide proofs to remote users that the system is high-integrity and the content has not been modified. The systems explore the use of different cryptographic constructions to amortize the high cost of inexpensive trusted hardware (the Trusted Platform Module). This research aims to build systems that generate integrity proofs that provide strong security guarantees about the system and the data being exchanged.</p>
-
-<h3 id="recent-papers-1">Recent Papers</h3>
-
-<ul>
-  <li><span id="mbs+2012">T. Moyer, K. R. B. Butler, J. Schiffman, P. McDaniel, and T. Jaeger, “Scalable Web Content Attestation,” <i>IEEE Transactions on Computers</i>, vol. 61, no. 5, pp. 686–699, May 2012.</span></li>
-  <li><span id="mjm2012">T. Moyer, T. Jaeger, and P. McDaniel, “Scalable Integrity-Guaranteed AJAX,” in <i>Web Technologies and Applications</i>, Berlin, Heidelberg, Apr. 2012, pp. 1–19.</span></li>
-  <li><span id="bmm+2010">K. R. B. Butler, S. McLaughlin, T. Moyer, and P. McDaniel, “New Security Architectures Based on Emerging Disk Functionality,” <i>IEEE Security Privacy</i>, vol. 8, no. 5, pp. 34–41, Sep. 2010.</span></li>
-  <li><span id="smv+2010">J. Schiffman, T. Moyer, H. Vijayakumar, T. Jaeger, and P. McDaniel, “Seeding Clouds with Trust Anchors,” in <i>CCSW ’10: Proceedings of the 2010 ACM workshop on Cloud computing security</i>, Oct. 2010.</span></li>
-</ul>
-
-<h2 id="secure-cloud-computing">Secure Cloud Computing</h2>
-<p><img src="/images/cloud-image.png" alt="Cloud Computing" class="research-pic" align="right" /></p>
-
-<p>As more and more workloads are migrated to cloud computing platforms, the question of security for these platforms becomes even more important. Users of commercial cloud computing services are expected to trust the cloud service provider, but have limited visibility into the state of the systems they are entrusting with their data. This research has focused on creating the building blocks necessary to establish and maintain a secure foundation for cloud computing. Trusted hardware and software are used to create roots of trust within the cloud that users can leverage to construct secure cloud services. The goal of this work is to develop cloud architectures that support sensitive workloads by providing strong security guarantees for the users.</p>
-
-<h3 id="recent-papers-2">Recent Papers</h3>
-
-<ul>
-  <li><span id="scm+2016">N. Schear, P. T. Cable II, T. Moyer, B. Richard, and R. Rudd, “Bootstrapping and Maintaining Trust in the Cloud,” in <i>Proceedings of the 32Nd Annual Conference on Computer Security Applications</i>, New York, NY, USA, Dec. 2016, pp. 65–77.</span> <em>To appear</em></li>
-  <li><span id="smj+2011">J. Schiffman, T. Moyer, T. Jaeger, and P. McDaniel, “Network-Based Root of Trust for Installation,” <i>IEEE Security Privacy</i>, vol. 9, no. 1, pp. 40–48, Jan. 2011.</span></li>
-  <li><span id="hrk+2010">B. Hicks, S. Rueda, D. King, T. Moyer, J. Schiffman, Y. Sreenivasan, P. McDaniel, and T. Jaeger, “An Architecture for Enforcing End-to-End Access Control Over Web Applications,” in <i>Proceedings of the 2010 Symposium on Access Control Models and Technologies, SACMAT ’10</i>, Jun. 2010.</span></li>
-  <li><span id="sms+2009">J. Schiffman, T. Moyer, C. Shal, T. Jaeger, and P. McDaniel, “Justifying Integrity Using a Virtual Machine Verifier,” in <i>2009 Annual Computer Security Applications Conference</i>, Dec. 2009, pp. 83–92.</span></li>
-</ul>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSe5kD08y3sVA6SIN6vzLthSABXDmKyFfFhrfaHwxSfSzJwCaQ/viewform?usp=sf_link" class="button">Advising Form</a></p>
 
         </section>
         
