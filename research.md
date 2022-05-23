@@ -15,10 +15,29 @@ Modern computers provide little in the way of transparency for end users. Data i
 
 ### Recent Papers
 
+- {% reference smm2018 %}
 - {% reference mg2016 %}
 - {% reference mcc+2016 %}
 - {% reference bbm2015 %}
 - {% reference btr+2015 %}
+
+## Graph Machine Learning for Data Provenance
+![Graph Machine Learning for Data Provenance](/images/flurry-image.png){:class="research-pic" align="right"}
+
+One of the current limitations of secure data provenance, especially with whole-system provenance, is the volume of data generated. By leveraging recent advances in *graph representational learning*, we can build models of system behavior and use those models to detect attacks, determine the impact of those attacks, and provide in-depth analysis of the attack from inception to completion. The goal of this work is to extend these models to provide detection, prevention, and recovery from attacks in a robust manner.
+
+### Recent Papers
+- {% reference kmr+2021 %}
+
+## Resilient Smart Buildings
+![Resilient Smart Buildings](/images/plc-image.jpg){:class="research-pic" align="right"}
+
+Smart buildings rely heavily on automation through programmable logic controllers, which are also used in other areas of automation from wastewater treatment, power generation, and pipeline control. These controllers are often networked together within a building to manage a variety of operational tasks. Traditionally, these control systems have been isolated, requiring physical presence within the building to connect to and operate these controllers. However, as these systems become more common, they are also becoming remotely accessible. This creates new security challenges that can impact the safety of those in and around the area being controlled. The goal of this work is to develop new security mechanisms that ensure the safety and security of the controller and attached systems.
+
+### Recent Papers
+
+- {% reference fmgm2019 %}
+- {% reference aamk2019 %}
 
 ## Trusted Computing
 ![Trusted Computing](/images/tc-image.png){:class="research-pic" align="left"}
@@ -39,7 +58,7 @@ As more and more workloads are migrated to cloud computing platforms, the questi
 
 ### Recent Papers
 
-- {% reference scm+2016 %} *To appear*
+- {% reference scm+2016 %}
 - {% reference smj+2011 %}
 - {% reference hrk+2010 %}
 - {% reference sms+2009 %}
