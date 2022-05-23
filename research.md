@@ -22,7 +22,7 @@ Modern computers provide little in the way of transparency for end users. Data i
 - {% reference btr+2015 %}
 
 ## Graph Machine Learning for Data Provenance
-![Graph Machine Learning for Data Provenance](/images/flurry-image.png){:class="research-pic" align="right"}
+![Graph Machine Learning for Data Provenance](/images/flurry-image.png){:class="research-pic" align="left"}
 
 One of the current limitations of secure data provenance, especially with whole-system provenance, is the volume of data generated. By leveraging recent advances in *graph representational learning*, we can build models of system behavior and use those models to detect attacks, determine the impact of those attacks, and provide in-depth analysis of the attack from inception to completion. The goal of this work is to extend these models to provide detection, prevention, and recovery from attacks in a robust manner.
 
