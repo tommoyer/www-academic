@@ -149,10 +149,33 @@
 <h3 id="recent-papers">Recent Papers</h3>
 
 <ul>
+  <li><span id="smm2018">W. Smith, T. Moyer, and C. Munson, “Curator: Provenance Management for Modern Distributed Systems,” in <i>10th USENIX Workshop on the Theory and Practice of Provenance, TaPP 2018, London, UK, July 11-12, 2018.</i>, Jul. 2018.</span></li>
   <li><span id="mg2016">T. Moyer and V. Gadepally, “High-throughput Ingest of Data Provenance Records into Accumulo,” in <i>2016 IEEE High Performance Extreme Computing Conference, HPEC 2016, Waltham, MA, USA, September 13-15, 2016</i>, Sep. 2016, pp. 1–6.</span></li>
   <li><span id="mcc+2016">T. Moyer, P. T. Cable, K. Chadha, R. Cunningham, N. Schear, W. Smith, A. Bates, K. Butler, F. Capobianco, and T. Jaeger, “Leveraging Data Provenance to Enhance Cyber Resilience,” in <i>1st IEEE Cybersecurity Development (SecDev)</i>, Nov. 2016.</span></li>
   <li><span id="bbm2015">A. Bates, K. R. B. Butler, and T. Moyer, “Take Only What You Need: Leveraging Mandatory Access Control Policy to Reduce Provenance Storage Costs,” in <i>7th USENIX Workshop on the Theory and Practice of Provenance (TaPP 15)</i>, Edinburgh, Scotland, Jul. 2015.</span></li>
   <li>(missing reference)</li>
+</ul>
+
+<h2 id="graph-machine-learning-for-data-provenance">Graph Machine Learning for Data Provenance</h2>
+<p><img src="/images/flurry-image.png" alt="Graph Machine Learning for Data Provenance" class="research-pic" align="right" /></p>
+
+<p>One of the current limitations of secure data provenance, especially with whole-system provenance, is the volume of data generated. By leveraging recent advances in <em>graph representational learning</em>, we can build models of system behavior and use those models to detect attacks, determine the impact of those attacks, and provide in-depth analysis of the attack from inception to completion. The goal of this work is to extend these models to provide detection, prevention, and recovery from attacks in a robust manner.</p>
+
+<h3 id="recent-papers-1">Recent Papers</h3>
+<ul>
+  <li><span id="kmr+2021">M. Kapoor, J. Melton, M. Ridenhour, S. Krishnan, and T. Moyer, “Prov-GEm: Automated Provenance Analysis Framework using Graph Embeddings,” in <i>Proceedings of the IEEE 2021 International Conference on Machine Learning and Applications, ICMLA 2021</i>, Dec. 2021.</span></li>
+</ul>
+
+<h2 id="resilient-smart-buildings">Resilient Smart Buildings</h2>
+<p><img src="/images/plc-image.jpg" alt="Resilient Smart Buildings" class="research-pic" align="right" /></p>
+
+<p>Smart buildings rely heavily on automation through programmable logic controllers, which are also used in other areas of automation from wastewater treatment, power generation, and pipeline control. These controllers are often networked together within a building to manage a variety of operational tasks. Traditionally, these control systems have been isolated, requiring physical presence within the building to connect to and operate these controllers. However, as these systems become more common, they are also becoming remotely accessible. This creates new security challenges that can impact the safety of those in and around the area being controlled. The goal of this work is to develop new security mechanisms that ensure the safety and security of the controller and attached systems.</p>
+
+<h3 id="recent-papers-2">Recent Papers</h3>
+
+<ul>
+  <li><span id="fmgm2019">A. A. Farooq, J. Marquard, K. George, and T. Moyer, “Detecting Safety and Security Faults in PLC Systems with Data Provenance,” in <i>IEEE International Symposium on Technologies for Homeland Security</i>, Nov. 2019.</span></li>
+  <li><span id="aamk2019">A. A. Farooq, E. Al-Shaer, T. Moyer, and K. Kant, “IoTC^2: A Formal Method Approach for Detecting Conflicts in Large Scale IoT Systems,” in <i>2019 IFIP/IEEE Symposium on Integrated Network and Service Management (IM)</i>, Apr. 2019, pp. 442–447.</span></li>
 </ul>
 
 <h2 id="trusted-computing">Trusted Computing</h2>
@@ -160,7 +183,7 @@
 
 <p>Users interact with remote machines to exchange data without first understanding the state of the remote system. The <em>integrity state</em> of a machine provides a user with evidence that the system has not been compromised. Consider a web server hosting a login page that is modified by an attacker to send user credentials to an attacker-controlled server. Users currently have few, if any, options to validate that the remote web server is not compromised. This research has focused on building systems that leverage trusted hardware to provide proofs to remote users that the system is high-integrity and the content has not been modified. The systems explore the use of different cryptographic constructions to amortize the high cost of inexpensive trusted hardware (the Trusted Platform Module). This research aims to build systems that generate integrity proofs that provide strong security guarantees about the system and the data being exchanged.</p>
 
-<h3 id="recent-papers-1">Recent Papers</h3>
+<h3 id="recent-papers-3">Recent Papers</h3>
 
 <ul>
   <li><span id="mbs+2012">T. Moyer, K. R. B. Butler, J. Schiffman, P. McDaniel, and T. Jaeger, “Scalable Web Content Attestation,” <i>IEEE Transactions on Computers</i>, vol. 61, no. 5, pp. 686–699, May 2012.</span></li>
@@ -174,10 +197,10 @@
 
 <p>As more and more workloads are migrated to cloud computing platforms, the question of security for these platforms becomes even more important. Users of commercial cloud computing services are expected to trust the cloud service provider, but have limited visibility into the state of the systems they are entrusting with their data. This research has focused on creating the building blocks necessary to establish and maintain a secure foundation for cloud computing. Trusted hardware and software are used to create roots of trust within the cloud that users can leverage to construct secure cloud services. The goal of this work is to develop cloud architectures that support sensitive workloads by providing strong security guarantees for the users.</p>
 
-<h3 id="recent-papers-2">Recent Papers</h3>
+<h3 id="recent-papers-4">Recent Papers</h3>
 
 <ul>
-  <li><span id="scm+2016">N. Schear, P. T. Cable II, T. Moyer, B. Richard, and R. Rudd, “Bootstrapping and Maintaining Trust in the Cloud,” in <i>Proceedings of the 32Nd Annual Conference on Computer Security Applications</i>, New York, NY, USA, Dec. 2016, pp. 65–77.</span> <em>To appear</em></li>
+  <li><span id="scm+2016">N. Schear, P. T. Cable II, T. Moyer, B. Richard, and R. Rudd, “Bootstrapping and Maintaining Trust in the Cloud,” in <i>Proceedings of the 32Nd Annual Conference on Computer Security Applications</i>, New York, NY, USA, Dec. 2016, pp. 65–77.</span></li>
   <li><span id="smj+2011">J. Schiffman, T. Moyer, T. Jaeger, and P. McDaniel, “Network-Based Root of Trust for Installation,” <i>IEEE Security Privacy</i>, vol. 9, no. 1, pp. 40–48, Jan. 2011.</span></li>
   <li><span id="hrk+2010">B. Hicks, S. Rueda, D. King, T. Moyer, J. Schiffman, Y. Sreenivasan, P. McDaniel, and T. Jaeger, “An Architecture for Enforcing End-to-End Access Control Over Web Applications,” in <i>Proceedings of the 2010 Symposium on Access Control Models and Technologies, SACMAT ’10</i>, Jun. 2010.</span></li>
   <li><span id="sms+2009">J. Schiffman, T. Moyer, C. Shal, T. Jaeger, and P. McDaniel, “Justifying Integrity Using a Virtual Machine Verifier,” in <i>2009 Annual Computer Security Applications Conference</i>, Dec. 2009, pp. 83–92.</span></li>
