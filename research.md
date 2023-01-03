@@ -27,6 +27,9 @@ Modern computers provide little in the way of transparency for end users. Data i
 One of the current limitations of secure data provenance, especially with whole-system provenance, is the volume of data generated. By leveraging recent advances in *graph representational learning*, we can build models of system behavior and use those models to detect attacks, determine the impact of those attacks, and provide in-depth analysis of the attack from inception to completion. The goal of this work is to extend these models to provide detection, prevention, and recovery from attacks in a robust manner.
 
 ### Recent Papers
+- {% reference kmq+2023 %}
+- {% reference kmr2022 %}
+- {% reference kkm2022 %}
 - {% reference kmr+2021 %}
 
 ## Resilient Smart Buildings
